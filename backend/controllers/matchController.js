@@ -32,6 +32,18 @@ exports.getMatchById = async (req, res) => {
     }
 };
 
+// Lấy tất cả trận đấu của một đội bóng
+exports.getMatchesByTeamId = async (req, res) => {
+    try {
+        const matches = await Match.find({
+            $or: [{ team1: req.params.teamId }, { team2: req.params.teamId }]
+        }).populate('team1 team2'); // Populate thông tin đội bóng
+        res.json(matches);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
+};
+
 // Cập nhật thông tin trận đấu
 exports.updateMatch = async (req, res) => {
     try {

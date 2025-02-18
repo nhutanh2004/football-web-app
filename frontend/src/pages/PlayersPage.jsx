@@ -1,32 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const PlayersPage = () => {
   const [players, setPlayers] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/players?populate=team')
-      .then(response => {
-        setPlayers(response.data);
-        setLoading(false);
-      })
-      .catch(error => {
-        setError(error.message);
-        setLoading(false);
-      });
+    axios.get('http://localhost:5000/api/players')
+      .then(response => setPlayers(response.data))
+      .catch(error => console.error(error));
   }, []);
 
   return (
     <div>
       <h1>Players</h1>
-      {loading && <p>Loading...</p>}
-      {error && <p>Error: {error}</p>}
       <ul>
         {players.map(player => (
           <li key={player._id}>
-            {player.name} - {player.position} - Team: {player.team?.name}
+            <Link to={`/players/${player._id}`}>{player.name}</Link>
           </li>
         ))}
       </ul>

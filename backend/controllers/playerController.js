@@ -21,6 +21,16 @@ exports.createPlayer = async (req, res) => {
     }
 };
 
+// Lấy thông tin cầu thủ theo id đội bóng
+exports.getPlayersByTeamId = async (req, res) => {
+    try {
+        const players = await Player.find({ team: req.params.teamId }).populate('team'); // Populate thông tin đội bóng
+        res.json(players);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
+};
+
 // Lấy thông tin cầu thủ bằng ID
 exports.getPlayerById = async (req, res) => {
     try {
