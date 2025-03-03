@@ -20,10 +20,12 @@ const MatchPage = () => {
       <p><strong>Date:</strong> {new Date(match.date).toLocaleDateString()}</p>
       <p><strong>Teams:</strong> 
         <Link to={`/teams/${match.team1._id}`}>{match.team1.name}</Link> 
-        &nbsp;vs&nbsp; 
+        <span> vs </span>; 
         <Link to={`/teams/${match.team2._id}`}>{match.team2.name}</Link>
       </p>
+      <p><strong>Stadium:</strong> {match.stadium}</p>
       <p><strong>Score:</strong> {match.score}</p>
+      <p><strong>Scorer</strong> {match.scorer[0].country}</p>
       <p><strong>Status:</strong> {match.status}</p>
     </div>
   );

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import './TeamsPage.css'; // Import the CSS file for styling
 
 const TeamsPage = () => {
   const [teams, setTeams] = useState([]);
@@ -12,15 +13,20 @@ const TeamsPage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="teams-page">
       <h1>Teams</h1>
-      <ul>
+      <div className="teams-grid">
         {teams.map(team => (
-          <li key={team._id}>
-            <Link to={`/teams/${team._id}`}>{team.name}</Link>
-          </li>
+          <div key={team._id} className="team-card">
+            <Link to={`/teams/${team._id}`}>
+              <div className="team-card-content">
+                <h2>{team.name}</h2>
+                <img src={team.logo_high} alt={team.name} />
+              </div>
+            </Link>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

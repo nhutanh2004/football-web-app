@@ -1,0 +1,45 @@
+.teams-page {
+  padding: 20px;
+}
+
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.team-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.team-card-content h2 {
+  margin-top: 0;
+}
+
+.team-card-content p {
+  margin: 10px 0;
+}
+
+.team-card-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.team-card-content a {
+  text-decoration: none;
+  color: inherit;
+}

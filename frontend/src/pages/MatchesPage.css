@@ -1,0 +1,76 @@
+.matches-page {
+  padding: 20px;
+}
+
+.matches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  gap: 20px;
+}
+
+.match-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px;
+  transition: transform 0.2s;
+}
+
+.match-card:hover {
+  transform: translateY(-5px);
+}
+
+.match-card-content {
+  padding: 20px;
+}
+
+.match-card-content h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.match-card-content h2 .team-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+span.team-name
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 215px;
+}
+span.vs
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 36px;
+}
+.match-card-content h2 img {
+  width: 40px;
+  height: 40px;
+}
+
+.match-card-content h2 span {
+  word-break: break-word;
+}
+
+.match-card-content p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.match-card-content a {
+  text-decoration: none;
+  color: inherit;
+}

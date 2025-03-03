@@ -17,11 +17,13 @@ const PlayerPage = () => {
   return (
     <div>
       <h1>{player.name}</h1>
-      <p><strong>Age:</strong> {player.age}</p>
+      <img src={player.avatarUrl} alt={player.name} />
+      <p><strong>Birthday:</strong> {player.birthday}</p>
       <p><strong>Position:</strong> {player.position}</p>
-      <p><strong>Team:</strong> 
+      <p><strong>Nationality:</strong> {player.country}</p>
+      <p><strong>Team: </strong> 
         <Link to={`/teams/${player.team?._id}`}>
-          {player.team?.name}
+           {player.team?.name}
         </Link>
       </p>
     </div>

@@ -1,0 +1,39 @@
+.players-page {
+  padding: 20px;
+}
+
+.players-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.player-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+}
+
+.player-card-content {
+  padding: 20px;
+}
+
+.player-card-content h2 {
+  margin-top: 0;
+}
+
+.player-card-content p {
+  margin: 10px 0;
+}
+
+.player-card-content a {
+  text-decoration: none;
+  color: inherit;
+}

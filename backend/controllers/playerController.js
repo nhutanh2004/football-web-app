@@ -41,6 +41,16 @@ exports.getPlayerById = async (req, res) => {
         res.status(500).json({ message: err.message });
     }
 };
+// Lấy thông tin cầu thủ bằng tên
+exports.getPlayerByName = async (req, res) => {
+    try {
+        const player = await Player.findOne({ name: req.params.name }).populate('team'); // Populate thông tin đội bóng
+        if (!player) return res.status(404).json({ message: 'Player not found' });
+        res.json(player);
+    } catch (err) { 
+        res.status(500).json({ message: err.message });
+    }
+}
 
 // Cập nhật thông tin cầu thủ
 exports.updatePlayer = async (req, res) => {

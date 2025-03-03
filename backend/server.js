@@ -2,6 +2,9 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const dotenv = require('dotenv');
+
+dotenv.config(); // Load environment variables from .env file
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -10,10 +13,12 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// Kết nối MongoDB (không sử dụng useNewUrlParser và useUnifiedTopology)
-mongoose.connect('mongodb://localhost:27017/footballDB')
-    .then(() => console.log('Connected to MongoDB'))
-    .catch(err => console.error('Failed to connect to MongoDB', err));
+// Kết nối MongoDB Atlas
+const mongoURI = process.env.MONGODB_URI;
+
+mongoose.connect(mongoURI)
+    .then(() => console.log('Connected to MongoDB Atlas'))
+    .catch(err => console.error('Failed to connect to MongoDB Atlas', err));
 
 // Routes
 const teamRoutes = require('./routes/teamRoutes');
@@ -25,6 +30,6 @@ app.use('/api/players', playerRoutes);
 app.use('/api/matches', matchRoutes);
 
 // Khởi động server
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on port ${PORT}`);
 });

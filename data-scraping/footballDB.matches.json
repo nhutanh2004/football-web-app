@@ -1,0 +1,4792 @@
+[{
+  "_id": {
+    "$oid": "67c459af728cda98777aed89"
+  },
+  "date": {
+    "$date": "2025-02-28T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "LEI",
+  "score": "2-0",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Tomás Soucek",
+    "Jannik Vestergaard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b0728cda98777aed8a"
+  },
+  "date": {
+    "$date": "2025-02-27T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "EVE",
+  "score": "1-1",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Yoane Wissa",
+    "Jake O'Brien"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b1728cda98777aed8b"
+  },
+  "date": {
+    "$date": "2025-02-27T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "IPS",
+  "score": "3-2",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Sam Morsy",
+    "Matthijs de Ligt",
+    "Harry Maguire",
+    "Jaden Philogene"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b2728cda98777aed8c"
+  },
+  "date": {
+    "$date": "2025-02-27T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "ARS",
+  "score": "0-0",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c459b2728cda98777aed8d"
+  },
+  "date": {
+    "$date": "2025-02-27T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "MCI",
+  "score": "0-1",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Erling Haaland"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b3728cda98777aed8e"
+  },
+  "date": {
+    "$date": "2025-02-27T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "NEW",
+  "score": "2-0",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Dominik Szoboszlai",
+    "Alexis Mac Allister"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b3728cda98777aed8f"
+  },
+  "date": {
+    "$date": "2025-02-26T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "BOU",
+  "score": "2-1",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "João Pedro",
+    "Danny Welbeck",
+    "Justin Kluivert"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b4728cda98777aed90"
+  },
+  "date": {
+    "$date": "2025-02-26T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "AVL",
+  "score": "4-1",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Ismaïla Sarr",
+    "Jean-Philippe Mateta",
+    "Eddie Nketiah",
+    "Morgan Rogers"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b5728cda98777aed91"
+  },
+  "date": {
+    "$date": "2025-02-26T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "FUL",
+  "score": "1-2",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "João Gomes",
+    "Ryan Sessegnon",
+    "Rodrigo Muniz"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b6728cda98777aed92"
+  },
+  "date": {
+    "$date": "2025-02-26T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "SOU",
+  "score": "4-0",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Christopher Nkunku",
+    "Pedro Neto",
+    "Levi Colwill",
+    "Marc Cucurella"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b7728cda98777aed93"
+  },
+  "date": {
+    "$date": "2025-02-23T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "CHE",
+  "score": "2-1",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Marco Asensio",
+    "Enzo Fernández"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b7728cda98777aed94"
+  },
+  "date": {
+    "$date": "2025-02-23T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "NOT",
+  "score": "4-3",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Lewis Miley",
+    "Jacob Murphy",
+    "Alexander Isak",
+    "Callum Hudson-Odoi",
+    "Nikola Milenkovic",
+    "Ryan Yates"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b8728cda98777aed95"
+  },
+  "date": {
+    "$date": "2025-02-23T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "LIV",
+  "score": "0-2",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Mohamed Salah",
+    "Dominik Szoboszlai"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459b9728cda98777aed96"
+  },
+  "date": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "BRE",
+  "score": "0-4",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Yoane Wissa",
+    "Bryan Mbeumo",
+    "Christian Nørgaard",
+    "Fábio Carvalho"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459ba728cda98777aed97"
+  },
+  "date": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "MUN",
+  "score": "2-2",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Beto",
+    "Abdoulaye Doucouré",
+    "Bruno Fernandes",
+    "Manuel Ugarte"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459bc728cda98777aed98"
+  },
+  "date": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "WHU",
+  "score": "0-1",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Jarrod Bowen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459bd728cda98777aed99"
+  },
+  "date": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "WOL",
+  "score": "0-1",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Matheus Cunha"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459bd728cda98777aed9a"
+  },
+  "date": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "CRY",
+  "score": "0-2",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Joachim Andersen",
+    "Daniel Muñoz"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459be728cda98777aed9b"
+  },
+  "date": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "TOT",
+  "score": "1-4",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Omari Hutchinson",
+    "Brennan Johnson",
+    "Djed Spence",
+    "Dejan Kulusevski"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459bf728cda98777aed9c"
+  },
+  "date": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "BHA",
+  "score": "0-4",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "João Pedro",
+    "Georginio Rutter",
+    "Kaoru Mitoma",
+    "Jack Hinshelwood"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c0728cda98777aed9d"
+  },
+  "date": {
+    "$date": "2025-02-20T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "LIV",
+  "score": "2-2",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Youri Tielemans",
+    "Ollie Watkins",
+    "Mohamed Salah",
+    "Trent Alexander-Arnold"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c1728cda98777aed9e"
+  },
+  "date": {
+    "$date": "2025-02-16T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "EVE",
+  "score": "1-2",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Jean-Philippe Mateta",
+    "Beto",
+    "Carlos Alcaraz"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c2728cda98777aed9f"
+  },
+  "date": {
+    "$date": "2025-02-16T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "WOL",
+  "score": "2-1",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Luis Díaz",
+    "Mohamed Salah",
+    "Matheus Cunha"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c2728cda98777aeda0"
+  },
+  "date": {
+    "$date": "2025-02-16T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "MUN",
+  "score": "1-0",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "James Maddison"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c3728cda98777aeda1"
+  },
+  "date": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "CHE",
+  "score": "3-0",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "Kaoru Mitoma",
+    "Yankuba Minteh"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c4728cda98777aeda2"
+  },
+  "date": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "ARS",
+  "score": "0-2",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Mikel Merino"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c5728cda98777aeda3"
+  },
+  "date": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "IPS",
+  "score": "1-1",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Ollie Watkins",
+    "Liam Delap"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c6728cda98777aeda4"
+  },
+  "date": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "NOT",
+  "score": "2-1",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Emile Smith Rowe",
+    "Calvin Bassey",
+    "Chris Wood"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c6728cda98777aeda5"
+  },
+  "date": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "NEW",
+  "score": "4-0",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Omar Marmoush",
+    "James McAtee"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c8728cda98777aeda6"
+  },
+  "date": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "BOU",
+  "score": "1-3",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Kamaldeen Sulemana",
+    "Dango Ouattara",
+    "Ryan Christie",
+    "Marcus Tavernier"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459c9728cda98777aeda7"
+  },
+  "date": {
+    "$date": "2025-02-15T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "BRE",
+  "score": "0-1",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Kevin Schade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459ca728cda98777aeda8"
+  },
+  "date": {
+    "$date": "2025-02-13T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "LIV",
+  "score": "2-2",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Beto",
+    "James Tarkowski",
+    "Alexis Mac Allister",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459cb728cda98777aeda9"
+  },
+  "date": {
+    "$date": "2025-02-04T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "WHU",
+  "score": "2-1",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Pedro Neto",
+    "Aaron Wan-Bissaka",
+    "Jarrod Bowen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459cc728cda98777aedaa"
+  },
+  "date": {
+    "$date": "2025-02-02T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "AVL",
+  "score": "2-0",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Jean-Ricner Bellegarde",
+    "Matheus Cunha"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459cd728cda98777aedab"
+  },
+  "date": {
+    "$date": "2025-02-02T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "TOT",
+  "score": "0-2",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Vitaly Janelt",
+    "Pape Sarr"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459ce728cda98777aedac"
+  },
+  "date": {
+    "$date": "2025-02-02T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "CRY",
+  "score": "0-2",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Jean-Philippe Mateta"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459cf728cda98777aedad"
+  },
+  "date": {
+    "$date": "2025-02-02T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "MCI",
+  "score": "5-1",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Martin Ødegaard",
+    "Thomas Partey",
+    "Myles Lewis-Skelly",
+    "Kai Havertz",
+    "Ethan Nwaneri",
+    "Erling Haaland"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d0728cda98777aedae"
+  },
+  "date": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "LIV",
+  "score": "0-2",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d1728cda98777aedaf"
+  },
+  "date": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "LEI",
+  "score": "4-0",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Abdoulaye Doucouré",
+    "Beto",
+    "Iliman Ndiaye"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d2728cda98777aedb0"
+  },
+  "date": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "SOU",
+  "score": "1-2",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Liam Delap",
+    "Joe Aribo",
+    "Paul Onuachu"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d3728cda98777aedb1"
+  },
+  "date": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "BHA",
+  "score": "7-0",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Lewis Dunk",
+    "Morgan Gibbs-White",
+    "Chris Wood",
+    "Neco Williams",
+    "Jota Silva"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d3728cda98777aedb2"
+  },
+  "date": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "FUL",
+  "score": "1-2",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Jacob Murphy",
+    "Raúl Jiménez",
+    "Rodrigo Muniz"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d5728cda98777aedb3"
+  },
+  "date": {
+    "$date": "2025-01-27T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "MUN",
+  "score": "0-1",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Lisandro Martínez"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d5728cda98777aedb4"
+  },
+  "date": {
+    "$date": "2025-01-26T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "CHE",
+  "score": "3-1",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Josko Gvardiol",
+    "Erling Haaland",
+    "Phil Foden",
+    "Noni Madueke"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d6728cda98777aedb5"
+  },
+  "date": {
+    "$date": "2025-01-26T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "BRE",
+  "score": "1-2",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Romain Esse",
+    "Bryan Mbeumo",
+    "Kevin Schade"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d7728cda98777aedb6"
+  },
+  "date": {
+    "$date": "2025-01-26T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "LEI",
+  "score": "1-2",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Richarlison",
+    "Jamie Vardy",
+    "Bilal El Khannouss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d8728cda98777aedb7"
+  },
+  "date": {
+    "$date": "2025-01-26T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "WHU",
+  "score": "1-1",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Jacob Ramsey",
+    "Emerson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459d9728cda98777aedb8"
+  },
+  "date": {
+    "$date": "2025-01-25T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "NOT",
+  "score": "5-0",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Justin Kluivert",
+    "Dango Ouattara",
+    "Antoine Semenyo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459da728cda98777aedb9"
+  },
+  "date": {
+    "$date": "2025-01-25T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "EVE",
+  "score": "0-1",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "Iliman Ndiaye"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459db728cda98777aedba"
+  },
+  "date": {
+    "$date": "2025-01-25T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "IPS",
+  "score": "4-1",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Dominik Szoboszlai",
+    "Mohamed Salah",
+    "Cody Gakpo",
+    "Jacob Greaves"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459dc728cda98777aedbb"
+  },
+  "date": {
+    "$date": "2025-01-25T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "NEW",
+  "score": "1-3",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Jan Bednarek",
+    "Alexander Isak",
+    "Sandro Tonali"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459dd728cda98777aedbc"
+  },
+  "date": {
+    "$date": "2025-01-25T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "ARS",
+  "score": "0-1",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Riccardo Calafiori"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459de728cda98777aedbd"
+  },
+  "date": {
+    "$date": "2025-01-21T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "WOL",
+  "score": "3-1",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Tosin Adarabioyo",
+    "Marc Cucurella",
+    "Noni Madueke",
+    "Matt Doherty"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459df728cda98777aedbe"
+  },
+  "date": {
+    "$date": "2025-01-19T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "AVL",
+  "score": "2-2",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Gabriel Martinelli",
+    "Kai Havertz",
+    "Youri Tielemans",
+    "Ollie Watkins"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459df728cda98777aedbf"
+  },
+  "date": {
+    "$date": "2025-01-19T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "TOT",
+  "score": "3-2",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Dominic Calvert-Lewin",
+    "Iliman Ndiaye",
+    "Archie Gray",
+    "Dejan Kulusevski",
+    "Richarlison"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459e1728cda98777aedc0"
+  },
+  "date": {
+    "$date": "2025-01-19T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "BHA",
+  "score": "1-3",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Bruno Fernandes",
+    "Yankuba Minteh",
+    "Kaoru Mitoma",
+    "Georginio Rutter"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459e2728cda98777aedc1"
+  },
+  "date": {
+    "$date": "2025-01-19T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "SOU",
+  "score": "3-2",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Elliot Anderson",
+    "Callum Hudson-Odoi",
+    "Chris Wood",
+    "Jan Bednarek",
+    "Paul Onuachu"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459e3728cda98777aedc2"
+  },
+  "date": {
+    "$date": "2025-01-19T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "MCI",
+  "score": "0-6",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Phil Foden",
+    "Mateo Kovacic",
+    "Jérémy Doku",
+    "Erling Haaland",
+    "James McAtee"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459e4728cda98777aedc3"
+  },
+  "date": {
+    "$date": "2025-01-18T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "LIV",
+  "score": "0-2",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Darwin Núñez"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459e6728cda98777aedc4"
+  },
+  "date": {
+    "$date": "2025-01-18T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "FUL",
+  "score": "0-2",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Emile Smith Rowe",
+    "Adama Traoré"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459e7728cda98777aedc5"
+  },
+  "date": {
+    "$date": "2025-01-18T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "BOU",
+  "score": "1-4",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Bruno Guimarães",
+    "Justin Kluivert",
+    "Milos Kerkez"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459e8728cda98777aedc6"
+  },
+  "date": {
+    "$date": "2025-01-18T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "CRY",
+  "score": "0-2",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Jean-Philippe Mateta"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459e9728cda98777aedc7"
+  },
+  "date": {
+    "$date": "2025-01-17T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "BHA",
+  "score": "0-2",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Kaoru Mitoma",
+    "Georginio Rutter"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459ea728cda98777aedc8"
+  },
+  "date": {
+    "$date": "2025-01-17T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "SOU",
+  "score": "3-1",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Amad Diallo",
+    "Manuel Ugarte"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459eb728cda98777aedc9"
+  },
+  "date": {
+    "$date": "2025-01-16T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "AVL",
+  "score": "0-1",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Ollie Watkins"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459ec728cda98777aedca"
+  },
+  "date": {
+    "$date": "2025-01-16T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "CRY",
+  "score": "0-2",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Jean-Philippe Mateta",
+    "Marc Guéhi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459ed728cda98777aedcb"
+  },
+  "date": {
+    "$date": "2025-01-16T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "WOL",
+  "score": "3-0",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Alexander Isak",
+    "Anthony Gordon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459ee728cda98777aedcc"
+  },
+  "date": {
+    "$date": "2025-01-16T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "TOT",
+  "score": "2-1",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Dominic Solanke",
+    "Leandro Trossard",
+    "Son Heung-Min"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f0728cda98777aedcd"
+  },
+  "date": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "MCI",
+  "score": "2-2",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Yoane Wissa",
+    "Christian Nørgaard",
+    "Phil Foden"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f1728cda98777aedce"
+  },
+  "date": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "BOU",
+  "score": "2-2",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Cole Palmer",
+    "Reece James",
+    "Justin Kluivert",
+    "Antoine Semenyo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f2728cda98777aedcf"
+  },
+  "date": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "FUL",
+  "score": "3-2",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Carlos Soler",
+    "Tomás Soucek",
+    "Lucas Paquetá",
+    "Alex Iwobi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f2728cda98777aedd0"
+  },
+  "date": {
+    "$date": "2025-01-15T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "LIV",
+  "score": "1-1",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Chris Wood",
+    "Diogo Jota"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f4728cda98777aedd1"
+  },
+  "date": {
+    "$date": "2025-01-07T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "NOT",
+  "score": "0-3",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Morgan Gibbs-White",
+    "Chris Wood",
+    "Taiwo Awoniyi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f4728cda98777aedd2"
+  },
+  "date": {
+    "$date": "2025-01-05T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "ARS",
+  "score": "1-1",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "João Pedro",
+    "Ethan Nwaneri"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f6728cda98777aedd3"
+  },
+  "date": {
+    "$date": "2025-01-05T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "IPS",
+  "score": "2-2",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Raúl Jiménez",
+    "Sam Szmodics",
+    "Liam Delap"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f6728cda98777aedd4"
+  },
+  "date": {
+    "$date": "2025-01-05T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "MUN",
+  "score": "2-2",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Cody Gakpo",
+    "Mohamed Salah",
+    "Lisandro Martínez",
+    "Amad Diallo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f7728cda98777aedd5"
+  },
+  "date": {
+    "$date": "2025-01-04T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "LEI",
+  "score": "2-1",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Ross Barkley",
+    "Leon Bailey",
+    "Stephy Mavididi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f8728cda98777aedd6"
+  },
+  "date": {
+    "$date": "2025-01-04T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "EVE",
+  "score": "1-0",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "David Brooks"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459f9728cda98777aedd7"
+  },
+  "date": {
+    "$date": "2025-01-04T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "CHE",
+  "score": "1-1",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Jean-Philippe Mateta",
+    "Cole Palmer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459fa728cda98777aedd8"
+  },
+  "date": {
+    "$date": "2025-01-04T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "WHU",
+  "score": "4-1",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Vladimír Coufal",
+    "Erling Haaland",
+    "Phil Foden",
+    "Niclas Füllkrug"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459fb728cda98777aedd9"
+  },
+  "date": {
+    "$date": "2025-01-04T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "NEW",
+  "score": "1-2",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Dominic Solanke",
+    "Anthony Gordon",
+    "Alexander Isak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459fc728cda98777aedda"
+  },
+  "date": {
+    "$date": "2025-01-04T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "BRE",
+  "score": "0-5",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Kevin Schade",
+    "Bryan Mbeumo",
+    "Keane Lewis-Potter",
+    "Yoane Wissa"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459fc728cda98777aeddb"
+  },
+  "date": {
+    "$date": "2025-01-02T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "ARS",
+  "score": "1-3",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Bryan Mbeumo",
+    "Gabriel Jesus",
+    "Mikel Merino",
+    "Gabriel Martinelli"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459fe728cda98777aeddc"
+  },
+  "date": {
+    "$date": "2024-12-31T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "BHA",
+  "score": "2-2",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Ollie Watkins",
+    "Morgan Rogers",
+    "Simon Adingra",
+    "Tariq Lamptey"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459ff728cda98777aeddd"
+  },
+  "date": {
+    "$date": "2024-12-31T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "CHE",
+  "score": "2-0",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Liam Delap",
+    "Omari Hutchinson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c459ff728cda98777aedde"
+  },
+  "date": {
+    "$date": "2024-12-31T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "NEW",
+  "score": "0-2",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Alexander Isak",
+    "Joelinton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a00728cda98777aeddf"
+  },
+  "date": {
+    "$date": "2024-12-30T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "LIV",
+  "score": "0-5",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Luis Díaz",
+    "Cody Gakpo",
+    "Mohamed Salah",
+    "Trent Alexander-Arnold",
+    "Diogo Jota"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a01728cda98777aede0"
+  },
+  "date": {
+    "$date": "2024-12-29T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "MCI",
+  "score": "0-2",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Savinho",
+    "Erling Haaland"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a02728cda98777aede1"
+  },
+  "date": {
+    "$date": "2024-12-29T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "SOU",
+  "score": "2-1",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Trevoh Chalobah",
+    "Eberechi Eze",
+    "Tyler Dibling"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a03728cda98777aede2"
+  },
+  "date": {
+    "$date": "2024-12-29T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "NOT",
+  "score": "0-2",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Chris Wood",
+    "Morgan Gibbs-White"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a04728cda98777aede3"
+  },
+  "date": {
+    "$date": "2024-12-29T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "BOU",
+  "score": "2-2",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Raúl Jiménez",
+    "Harry Wilson",
+    "Evanilson",
+    "Dango Ouattara"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a04728cda98777aede4"
+  },
+  "date": {
+    "$date": "2024-12-29T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "WOL",
+  "score": "2-2",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Rodrigo Bentancur",
+    "Brennan Johnson",
+    "Hwang Hee-Chan",
+    "Jørgen Strand Larsen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a06728cda98777aede5"
+  },
+  "date": {
+    "$date": "2024-12-28T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "BRE",
+  "score": "0-0",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a07728cda98777aede6"
+  },
+  "date": {
+    "$date": "2024-12-28T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "IPS",
+  "score": "1-0",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Kai Havertz"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a08728cda98777aede7"
+  },
+  "date": {
+    "$date": "2024-12-27T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "MUN",
+  "score": "2-0",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Matheus Cunha",
+    "Hwang Hee-Chan"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a09728cda98777aede8"
+  },
+  "date": {
+    "$date": "2024-12-27T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "LEI",
+  "score": "3-1",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Cody Gakpo",
+    "Curtis Jones",
+    "Mohamed Salah",
+    "Jordan Ayew"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a0a728cda98777aede9"
+  },
+  "date": {
+    "$date": "2024-12-26T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "CRY",
+  "score": "0-0",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a0b728cda98777aedea"
+  },
+  "date": {
+    "$date": "2024-12-26T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "FUL",
+  "score": "1-2",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Cole Palmer",
+    "Harry Wilson",
+    "Rodrigo Muniz"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a0c728cda98777aedeb"
+  },
+  "date": {
+    "$date": "2024-12-26T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "AVL",
+  "score": "3-0",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Anthony Gordon",
+    "Alexander Isak",
+    "Joelinton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a0d728cda98777aedec"
+  },
+  "date": {
+    "$date": "2024-12-26T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "TOT",
+  "score": "1-0",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Anthony Elanga"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a0f728cda98777aeded"
+  },
+  "date": {
+    "$date": "2024-12-26T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "EVE",
+  "score": "1-1",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Bernardo Silva",
+    "Iliman Ndiaye"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a0f728cda98777aedee"
+  },
+  "date": {
+    "$date": "2024-12-26T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "WHU",
+  "score": "0-1",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Jarrod Bowen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a11728cda98777aedef"
+  },
+  "date": {
+    "$date": "2024-12-22T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "ARS",
+  "score": "1-5",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Ismaïla Sarr",
+    "Gabriel Jesus",
+    "Kai Havertz",
+    "Gabriel Martinelli",
+    "Declan Rice"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a12728cda98777aedf0"
+  },
+  "date": {
+    "$date": "2024-12-22T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "CHE",
+  "score": "0-0",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a13728cda98777aedf1"
+  },
+  "date": {
+    "$date": "2024-12-22T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "SOU",
+  "score": "0-0",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a14728cda98777aedf2"
+  },
+  "date": {
+    "$date": "2024-12-22T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "WOL",
+  "score": "0-3",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Gonçalo Guedes",
+    "Rodrigo Gomes",
+    "Matheus Cunha"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a14728cda98777aedf3"
+  },
+  "date": {
+    "$date": "2024-12-22T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "BOU",
+  "score": "0-3",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Dean Huijsen",
+    "Justin Kluivert",
+    "Antoine Semenyo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a15728cda98777aedf4"
+  },
+  "date": {
+    "$date": "2024-12-22T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "LIV",
+  "score": "3-6",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "James Maddison",
+    "Dejan Kulusevski",
+    "Dominic Solanke",
+    "Luis Díaz",
+    "Alexis Mac Allister",
+    "Dominik Szoboszlai",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a16728cda98777aedf5"
+  },
+  "date": {
+    "$date": "2024-12-21T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "MCI",
+  "score": "2-1",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Jhon Durán",
+    "Morgan Rogers",
+    "Phil Foden"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a17728cda98777aedf6"
+  },
+  "date": {
+    "$date": "2024-12-21T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "NOT",
+  "score": "0-2",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Ola Aina",
+    "Anthony Elanga"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a18728cda98777aedf7"
+  },
+  "date": {
+    "$date": "2024-12-21T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "NEW",
+  "score": "0-4",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Alexander Isak",
+    "Jacob Murphy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a19728cda98777aedf8"
+  },
+  "date": {
+    "$date": "2024-12-21T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "BHA",
+  "score": "1-1",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Mohammed Kudus",
+    "Mats Wieffer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a1a728cda98777aedf9"
+  },
+  "date": {
+    "$date": "2024-12-17T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "WHU",
+  "score": "1-1",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Enes Ünal",
+    "Lucas Paquetá"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a1b728cda98777aedfa"
+  },
+  "date": {
+    "$date": "2024-12-16T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "BRE",
+  "score": "2-1",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Marc Cucurella",
+    "Nicolas Jackson",
+    "Bryan Mbeumo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a1c728cda98777aedfb"
+  },
+  "date": {
+    "$date": "2024-12-16T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "TOT",
+  "score": "0-5",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "James Maddison",
+    "Son Heung-Min",
+    "Dejan Kulusevski",
+    "Pape Sarr"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a1d728cda98777aedfc"
+  },
+  "date": {
+    "$date": "2024-12-15T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "AVL",
+  "score": "2-1",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Nikola Milenkovic",
+    "Anthony Elanga",
+    "Jhon Durán"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a1f728cda98777aedfd"
+  },
+  "date": {
+    "$date": "2024-12-15T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "CRY",
+  "score": "1-3",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "Marc Guéhi",
+    "Trevoh Chalobah",
+    "Ismaïla Sarr"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a20728cda98777aedfe"
+  },
+  "date": {
+    "$date": "2024-12-15T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "MUN",
+  "score": "1-2",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Josko Gvardiol",
+    "Bruno Fernandes",
+    "Amad Diallo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a21728cda98777aedff"
+  },
+  "date": {
+    "$date": "2024-12-14T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "EVE",
+  "score": "0-0",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a22728cda98777aee00"
+  },
+  "date": {
+    "$date": "2024-12-14T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "FUL",
+  "score": "2-2",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Cody Gakpo",
+    "Diogo Jota",
+    "Andreas Pereira",
+    "Rodrigo Muniz"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a23728cda98777aee01"
+  },
+  "date": {
+    "$date": "2024-12-14T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "LEI",
+  "score": "4-0",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Jacob Murphy",
+    "Bruno Guimarães",
+    "Alexander Isak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a24728cda98777aee02"
+  },
+  "date": {
+    "$date": "2024-12-14T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "IPS",
+  "score": "1-2",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Matheus Cunha",
+    "Matt Doherty",
+    "Jack Taylor"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a25728cda98777aee03"
+  },
+  "date": {
+    "$date": "2024-12-10T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "WOL",
+  "score": "2-1",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Tomás Soucek",
+    "Jarrod Bowen",
+    "Matt Doherty"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a26728cda98777aee04"
+  },
+  "date": {
+    "$date": "2024-12-08T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "NOT",
+  "score": "2-3",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Rasmus Højlund",
+    "Bruno Fernandes",
+    "Nikola Milenkovic",
+    "Morgan Gibbs-White",
+    "Chris Wood"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a27728cda98777aee05"
+  },
+  "date": {
+    "$date": "2024-12-08T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "ARS",
+  "score": "1-1",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Raúl Jiménez",
+    "William Saliba"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a28728cda98777aee06"
+  },
+  "date": {
+    "$date": "2024-12-08T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "BOU",
+  "score": "1-2",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Conor Chaplin",
+    "Enes Ünal",
+    "Dango Ouattara"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a29728cda98777aee07"
+  },
+  "date": {
+    "$date": "2024-12-08T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "BHA",
+  "score": "2-2",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Jamie Vardy",
+    "Bobby De Cordova-Reid",
+    "Tariq Lamptey",
+    "Yankuba Minteh"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a2a728cda98777aee08"
+  },
+  "date": {
+    "$date": "2024-12-08T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "CHE",
+  "score": "3-4",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Dominic Solanke",
+    "Dejan Kulusevski",
+    "Son Heung-Min",
+    "Jadon Sancho",
+    "Cole Palmer",
+    "Enzo Fernández"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a2b728cda98777aee09"
+  },
+  "date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "SOU",
+  "score": "1-0",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Jhon Durán"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a2c728cda98777aee0a"
+  },
+  "date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "NEW",
+  "score": "4-2",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Bryan Mbeumo",
+    "Yoane Wissa",
+    "Nathan Collins",
+    "Kevin Schade",
+    "Alexander Isak",
+    "Harvey Barnes"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a2d728cda98777aee0b"
+  },
+  "date": {
+    "$date": "2024-12-07T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "MCI",
+  "score": "2-2",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Daniel Muñoz",
+    "Maxence Lacroix",
+    "Erling Haaland",
+    "Rico Lewis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a2e728cda98777aee0c"
+  },
+  "date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "BHA",
+  "score": "3-1",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Alex Iwobi",
+    "Matt O'Riley",
+    "Carlos Baleba"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a2f728cda98777aee0d"
+  },
+  "date": {
+    "$date": "2024-12-06T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "TOT",
+  "score": "1-0",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Dean Huijsen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a30728cda98777aee0e"
+  },
+  "date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "WOL",
+  "score": "4-0",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Ashley Young",
+    "Orel Mangala",
+    "Craig Dawson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a30728cda98777aee0f"
+  },
+  "date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "NOT",
+  "score": "3-0",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Bernardo Silva",
+    "Kevin De Bruyne",
+    "Jérémy Doku"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a31728cda98777aee10"
+  },
+  "date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "LIV",
+  "score": "3-3",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Alexander Isak",
+    "Anthony Gordon",
+    "Fabian Schär",
+    "Curtis Jones",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a33728cda98777aee11"
+  },
+  "date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "CHE",
+  "score": "1-5",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Joe Aribo",
+    "Axel Disasi",
+    "Christopher Nkunku",
+    "Noni Madueke",
+    "Cole Palmer",
+    "Jadon Sancho"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a34728cda98777aee12"
+  },
+  "date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "MUN",
+  "score": "2-0",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Jurriën Timber",
+    "William Saliba"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a35728cda98777aee13"
+  },
+  "date": {
+    "$date": "2024-12-05T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "BRE",
+  "score": "3-1",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Morgan Rogers",
+    "Ollie Watkins",
+    "Matty Cash",
+    "Mikkel Damsgaard"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a36728cda98777aee14"
+  },
+  "date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "WHU",
+  "score": "3-1",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Jamie Vardy",
+    "Bilal El Khannouss",
+    "Patson Daka",
+    "Niclas Füllkrug"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a37728cda98777aee15"
+  },
+  "date": {
+    "$date": "2024-12-04T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "CRY",
+  "score": "0-1",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Jean-Philippe Mateta"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a38728cda98777aee16"
+  },
+  "date": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "ARS",
+  "score": "2-5",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Aaron Wan-Bissaka",
+    "Emerson",
+    "Gabriel Magalhães",
+    "Leandro Trossard",
+    "Martin Ødegaard",
+    "Kai Havertz",
+    "Bukayo Saka"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a39728cda98777aee17"
+  },
+  "date": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "AVL",
+  "score": "3-0",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Nicolas Jackson",
+    "Enzo Fernández",
+    "Cole Palmer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a3a728cda98777aee18"
+  },
+  "date": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "EVE",
+  "score": "4-0",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Marcus Rashford",
+    "Joshua Zirkzee"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a3b728cda98777aee19"
+  },
+  "date": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "FUL",
+  "score": "1-1",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Brennan Johnson",
+    "Tom Cairney"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a3c728cda98777aee1a"
+  },
+  "date": {
+    "$date": "2024-12-01T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "MCI",
+  "score": "2-0",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Cody Gakpo",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a3d728cda98777aee1b"
+  },
+  "date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "SOU",
+  "score": "1-1",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "Kaoru Mitoma",
+    "Flynn Downes"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a3e728cda98777aee1c"
+  },
+  "date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "LEI",
+  "score": "4-1",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Yoane Wissa",
+    "Kevin Schade",
+    "Facundo Buonanotte"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a3f728cda98777aee1d"
+  },
+  "date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "NEW",
+  "score": "1-1",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Daniel Muñoz",
+    "Marc Guéhi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a40728cda98777aee1e"
+  },
+  "date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "IPS",
+  "score": "1-0",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Chris Wood"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a41728cda98777aee1f"
+  },
+  "date": {
+    "$date": "2024-11-30T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "BOU",
+  "score": "2-4",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Jørgen Strand Larsen",
+    "Justin Kluivert",
+    "Milos Kerkez"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a42728cda98777aee20"
+  },
+  "date": {
+    "$date": "2024-11-26T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "WHU",
+  "score": "0-2",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Tomás Soucek",
+    "Aaron Wan-Bissaka"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a43728cda98777aee21"
+  },
+  "date": {
+    "$date": "2024-11-24T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "TOT",
+  "score": "0-4",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "James Maddison",
+    "Pedro Porro",
+    "Brennan Johnson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a44728cda98777aee22"
+  },
+  "date": {
+    "$date": "2024-11-24T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "LIV",
+  "score": "2-3",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Adam Armstrong",
+    "Mateus Fernandes",
+    "Dominik Szoboszlai",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a44728cda98777aee23"
+  },
+  "date": {
+    "$date": "2024-11-24T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "MUN",
+  "score": "1-1",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Omari Hutchinson",
+    "Marcus Rashford"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a46728cda98777aee24"
+  },
+  "date": {
+    "$date": "2024-11-23T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "NOT",
+  "score": "3-0",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Bukayo Saka",
+    "Thomas Partey",
+    "Ethan Nwaneri"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a47728cda98777aee25"
+  },
+  "date": {
+    "$date": "2024-11-23T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "CRY",
+  "score": "2-2",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Ollie Watkins",
+    "Ross Barkley",
+    "Ismaïla Sarr",
+    "Justin Devenny"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a48728cda98777aee26"
+  },
+  "date": {
+    "$date": "2024-11-23T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "BHA",
+  "score": "1-2",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "David Brooks",
+    "João Pedro",
+    "Kaoru Mitoma"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a49728cda98777aee27"
+  },
+  "date": {
+    "$date": "2024-11-23T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "BRE",
+  "score": "0-0",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a4a728cda98777aee28"
+  },
+  "date": {
+    "$date": "2024-11-23T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "WOL",
+  "score": "1-4",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Alex Iwobi",
+    "Matheus Cunha",
+    "João Gomes",
+    "Gonçalo Guedes"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a4b728cda98777aee29"
+  },
+  "date": {
+    "$date": "2024-11-23T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "CHE",
+  "score": "1-2",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Jordan Ayew",
+    "Nicolas Jackson",
+    "Enzo Fernández"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a4c728cda98777aee2a"
+  },
+  "date": {
+    "$date": "2024-11-10T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "MCI",
+  "score": "2-1",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "João Pedro",
+    "Matt O'Riley",
+    "Erling Haaland"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a4d728cda98777aee2b"
+  },
+  "date": {
+    "$date": "2024-11-10T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "AVL",
+  "score": "2-0",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Darwin Núñez",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a4e728cda98777aee2c"
+  },
+  "date": {
+    "$date": "2024-11-10T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "LEI",
+  "score": "3-0",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Bruno Fernandes",
+    "Victor Kristiansen",
+    "Alejandro Garnacho"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a4e728cda98777aee2d"
+  },
+  "date": {
+    "$date": "2024-11-10T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "NEW",
+  "score": "1-3",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Murillo",
+    "Alexander Isak",
+    "Joelinton",
+    "Harvey Barnes"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a4f728cda98777aee2e"
+  },
+  "date": {
+    "$date": "2024-11-10T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "IPS",
+  "score": "1-2",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Rodrigo Bentancur",
+    "Sam Szmodics",
+    "Liam Delap"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a50728cda98777aee2f"
+  },
+  "date": {
+    "$date": "2024-11-10T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "ARS",
+  "score": "1-1",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Pedro Neto",
+    "Gabriel Martinelli"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a51728cda98777aee30"
+  },
+  "date": {
+    "$date": "2024-11-09T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "BOU",
+  "score": "3-2",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Yoane Wissa",
+    "Mikkel Damsgaard",
+    "Evanilson",
+    "Justin Kluivert"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a52728cda98777aee31"
+  },
+  "date": {
+    "$date": "2024-11-09T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "FUL",
+  "score": "0-2",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Emile Smith Rowe",
+    "Harry Wilson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a53728cda98777aee32"
+  },
+  "date": {
+    "$date": "2024-11-09T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "EVE",
+  "score": "0-0",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a54728cda98777aee33"
+  },
+  "date": {
+    "$date": "2024-11-09T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "SOU",
+  "score": "2-0",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Pablo Sarabia",
+    "Matheus Cunha"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a55728cda98777aee34"
+  },
+  "date": {
+    "$date": "2024-11-05T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "BRE",
+  "score": "2-1",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Harry Wilson",
+    "Vitaly Janelt"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a57728cda98777aee35"
+  },
+  "date": {
+    "$date": "2024-11-03T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "CRY",
+  "score": "2-2",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Jørgen Strand Larsen",
+    "João Gomes",
+    "Trevoh Chalobah",
+    "Marc Guéhi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a57728cda98777aee36"
+  },
+  "date": {
+    "$date": "2024-11-03T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "AVL",
+  "score": "4-1",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Brennan Johnson",
+    "Dominic Solanke",
+    "James Maddison",
+    "Morgan Rogers"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a59728cda98777aee37"
+  },
+  "date": {
+    "$date": "2024-11-03T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "CHE",
+  "score": "1-1",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Bruno Fernandes",
+    "Moisés Caicedo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a59728cda98777aee38"
+  },
+  "date": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "MCI",
+  "score": "2-1",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Antoine Semenyo",
+    "Evanilson",
+    "Josko Gvardiol"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a5a728cda98777aee39"
+  },
+  "date": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "LEI",
+  "score": "1-1",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Leif Davis",
+    "Jordan Ayew"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a5b728cda98777aee3a"
+  },
+  "date": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "BHA",
+  "score": "2-1",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Cody Gakpo",
+    "Mohamed Salah",
+    "Ferdi Kadioglu"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a5d728cda98777aee3b"
+  },
+  "date": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "WHU",
+  "score": "3-0",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Chris Wood",
+    "Callum Hudson-Odoi",
+    "Ola Aina"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a5e728cda98777aee3c"
+  },
+  "date": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "EVE",
+  "score": "1-0",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Adam Armstrong"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a5e728cda98777aee3d"
+  },
+  "date": {
+    "$date": "2024-11-02T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "ARS",
+  "score": "1-0",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Alexander Isak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a5f728cda98777aee3e"
+  },
+  "date": {
+    "$date": "2024-10-27T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "NEW",
+  "score": "2-1",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Nicolas Jackson",
+    "Cole Palmer",
+    "Alexander Isak"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a61728cda98777aee3f"
+  },
+  "date": {
+    "$date": "2024-10-27T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "TOT",
+  "score": "1-0",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Jean-Philippe Mateta"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a62728cda98777aee40"
+  },
+  "date": {
+    "$date": "2024-10-27T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "MUN",
+  "score": "2-1",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Crysencio Summerville",
+    "Jarrod Bowen",
+    "Casemiro"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a62728cda98777aee41"
+  },
+  "date": {
+    "$date": "2024-10-27T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "LIV",
+  "score": "2-2",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Bukayo Saka",
+    "Mikel Merino",
+    "Virgil van Dijk",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a63728cda98777aee42"
+  },
+  "date": {
+    "$date": "2024-10-26T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "NOT",
+  "score": "1-3",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Jamie Vardy",
+    "Ryan Yates",
+    "Chris Wood"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a64728cda98777aee43"
+  },
+  "date": {
+    "$date": "2024-10-26T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "BOU",
+  "score": "1-1",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Ross Barkley",
+    "Evanilson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a65728cda98777aee44"
+  },
+  "date": {
+    "$date": "2024-10-26T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "IPS",
+  "score": "4-3",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Yoane Wissa",
+    "Bryan Mbeumo",
+    "Sam Szmodics",
+    "George Hirst",
+    "Liam Delap"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a66728cda98777aee45"
+  },
+  "date": {
+    "$date": "2024-10-26T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "WOL",
+  "score": "2-2",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "Danny Welbeck",
+    "Evan Ferguson",
+    "Rayan Aït-Nouri",
+    "Matheus Cunha"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a67728cda98777aee46"
+  },
+  "date": {
+    "$date": "2024-10-26T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "SOU",
+  "score": "1-0",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Erling Haaland"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a67728cda98777aee47"
+  },
+  "date": {
+    "$date": "2024-10-26T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "FUL",
+  "score": "1-1",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Beto",
+    "Alex Iwobi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a69728cda98777aee48"
+  },
+  "date": {
+    "$date": "2024-10-22T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "CRY",
+  "score": "1-0",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Chris Wood"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a6a728cda98777aee49"
+  },
+  "date": {
+    "$date": "2024-10-20T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "MCI",
+  "score": "1-2",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Jørgen Strand Larsen",
+    "Josko Gvardiol",
+    "John Stones"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a6a728cda98777aee4a"
+  },
+  "date": {
+    "$date": "2024-10-20T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "CHE",
+  "score": "2-1",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Mohamed Salah",
+    "Curtis Jones",
+    "Nicolas Jackson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a6b728cda98777aee4b"
+  },
+  "date": {
+    "$date": "2024-10-19T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "AVL",
+  "score": "1-3",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Raúl Jiménez",
+    "Morgan Rogers",
+    "Ollie Watkins",
+    "Issa Diop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a6c728cda98777aee4c"
+  },
+  "date": {
+    "$date": "2024-10-19T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "BRE",
+  "score": "2-1",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Alejandro Garnacho",
+    "Rasmus Højlund",
+    "Ethan Pinnock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a6d728cda98777aee4d"
+  },
+  "date": {
+    "$date": "2024-10-19T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "BHA",
+  "score": "0-1",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Danny Welbeck"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a6e728cda98777aee4e"
+  },
+  "date": {
+    "$date": "2024-10-19T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "LEI",
+  "score": "2-3",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Cameron Archer",
+    "Joe Aribo",
+    "Facundo Buonanotte",
+    "Jamie Vardy",
+    "Jordan Ayew"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a6e728cda98777aee4f"
+  },
+  "date": {
+    "$date": "2024-10-19T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "EVE",
+  "score": "0-2",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Iliman Ndiaye",
+    "Michael Keane"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a6f728cda98777aee50"
+  },
+  "date": {
+    "$date": "2024-10-19T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "ARS",
+  "score": "2-0",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Ryan Christie",
+    "Justin Kluivert"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a70728cda98777aee51"
+  },
+  "date": {
+    "$date": "2024-10-19T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "WHU",
+  "score": "4-1",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Dejan Kulusevski",
+    "Yves Bissouma",
+    "Alphonse Areola",
+    "Son Heung-Min",
+    "Mohammed Kudus"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a71728cda98777aee52"
+  },
+  "date": {
+    "$date": "2024-10-06T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "MUN",
+  "score": "0-0",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a72728cda98777aee53"
+  },
+  "date": {
+    "$date": "2024-10-06T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "NOT",
+  "score": "1-1",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Noni Madueke",
+    "Chris Wood"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a73728cda98777aee54"
+  },
+  "date": {
+    "$date": "2024-10-06T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "TOT",
+  "score": "3-2",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "Yankuba Minteh",
+    "Georginio Rutter",
+    "Danny Welbeck",
+    "Brennan Johnson",
+    "James Maddison"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a74728cda98777aee55"
+  },
+  "date": {
+    "$date": "2024-10-05T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "LIV",
+  "score": "0-1",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Diogo Jota"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a75728cda98777aee56"
+  },
+  "date": {
+    "$date": "2024-10-05T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "SOU",
+  "score": "3-1",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Kai Havertz",
+    "Gabriel Martinelli",
+    "Bukayo Saka",
+    "Cameron Archer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a76728cda98777aee57"
+  },
+  "date": {
+    "$date": "2024-10-05T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "WOL",
+  "score": "5-3",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Nathan Collins",
+    "Bryan Mbeumo",
+    "Christian Nørgaard",
+    "Ethan Pinnock",
+    "Fábio Carvalho",
+    "Matheus Cunha",
+    "Jørgen Strand Larsen",
+    "Rayan Aït-Nouri"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a77728cda98777aee58"
+  },
+  "date": {
+    "$date": "2024-10-05T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "BOU",
+  "score": "1-0",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Facundo Buonanotte"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a78728cda98777aee59"
+  },
+  "date": {
+    "$date": "2024-10-05T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "FUL",
+  "score": "3-2",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Mateo Kovacic",
+    "Jérémy Doku",
+    "Andreas Pereira",
+    "Rodrigo Muniz"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a7a728cda98777aee5a"
+  },
+  "date": {
+    "$date": "2024-10-05T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "IPS",
+  "score": "4-1",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Michail Antonio",
+    "Mohammed Kudus",
+    "Jarrod Bowen",
+    "Lucas Paquetá",
+    "Liam Delap"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a7b728cda98777aee5b"
+  },
+  "date": {
+    "$date": "2024-10-05T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "NEW",
+  "score": "0-0",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a7c728cda98777aee5c"
+  },
+  "date": {
+    "$date": "2024-10-01T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "SOU",
+  "score": "3-1",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Evanilson",
+    "Dango Ouattara",
+    "Antoine Semenyo",
+    "Taylor Harwood-Bellis"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a7d728cda98777aee5d"
+  },
+  "date": {
+    "$date": "2024-09-29T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "AVL",
+  "score": "2-2",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Liam Delap",
+    "Morgan Rogers",
+    "Ollie Watkins"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a7e728cda98777aee5e"
+  },
+  "date": {
+    "$date": "2024-09-29T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "TOT",
+  "score": "0-3",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Brennan Johnson",
+    "Dejan Kulusevski",
+    "Dominic Solanke"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a7f728cda98777aee5f"
+  },
+  "date": {
+    "$date": "2024-09-28T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "LEI",
+  "score": "4-2",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Gabriel Martinelli",
+    "Leandro Trossard",
+    "Wilfred Ndidi",
+    "Kai Havertz",
+    "James Justin"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a80728cda98777aee60"
+  },
+  "date": {
+    "$date": "2024-09-28T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "WHU",
+  "score": "1-1",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Bryan Mbeumo",
+    "Tomás Soucek"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a81728cda98777aee61"
+  },
+  "date": {
+    "$date": "2024-09-28T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "BHA",
+  "score": "4-2",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Cole Palmer",
+    "Georginio Rutter",
+    "Carlos Baleba"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a82728cda98777aee62"
+  },
+  "date": {
+    "$date": "2024-09-28T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "CRY",
+  "score": "2-1",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Dwight McNeil",
+    "Marc Guéhi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a83728cda98777aee63"
+  },
+  "date": {
+    "$date": "2024-09-28T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "FUL",
+  "score": "0-1",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Raúl Jiménez"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a84728cda98777aee64"
+  },
+  "date": {
+    "$date": "2024-09-28T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "LIV",
+  "score": "1-2",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Rayan Aït-Nouri",
+    "Ibrahima Konaté",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a85728cda98777aee65"
+  },
+  "date": {
+    "$date": "2024-09-28T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "MCI",
+  "score": "1-1",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Anthony Gordon",
+    "Josko Gvardiol"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a86728cda98777aee66"
+  },
+  "date": {
+    "$date": "2024-09-22T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "NOT",
+  "score": "2-2",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "Jack Hinshelwood",
+    "Danny Welbeck",
+    "Chris Wood",
+    "Ramón Sosa"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a87728cda98777aee67"
+  },
+  "date": {
+    "$date": "2024-09-22T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "ARS",
+  "score": "2-2",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Erling Haaland",
+    "John Stones",
+    "Riccardo Calafiori",
+    "Gabriel Magalhães"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a88728cda98777aee68"
+  },
+  "date": {
+    "$date": "2024-09-21T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "CHE",
+  "score": "0-3",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Nicolas Jackson",
+    "Cole Palmer"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a89728cda98777aee69"
+  },
+  "date": {
+    "$date": "2024-09-21T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "WOL",
+  "score": "3-1",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Ollie Watkins",
+    "Ezri Konsa",
+    "Jhon Durán",
+    "Matheus Cunha"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a8a728cda98777aee6a"
+  },
+  "date": {
+    "$date": "2024-09-21T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "NEW",
+  "score": "3-1",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Raúl Jiménez",
+    "Emile Smith Rowe",
+    "Reiss Nelson",
+    "Harvey Barnes"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a8c728cda98777aee6b"
+  },
+  "date": {
+    "$date": "2024-09-21T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "EVE",
+  "score": "1-1",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Stephy Mavididi",
+    "Iliman Ndiaye"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a8d728cda98777aee6c"
+  },
+  "date": {
+    "$date": "2024-09-21T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "BOU",
+  "score": "3-0",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Luis Díaz",
+    "Darwin Núñez"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a8e728cda98777aee6d"
+  },
+  "date": {
+    "$date": "2024-09-21T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "IPS",
+  "score": "1-1",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Tyler Dibling",
+    "Sam Morsy"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a90728cda98777aee6e"
+  },
+  "date": {
+    "$date": "2024-09-21T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "BRE",
+  "score": "3-1",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Dominic Solanke",
+    "Brennan Johnson",
+    "James Maddison",
+    "Bryan Mbeumo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a91728cda98777aee6f"
+  },
+  "date": {
+    "$date": "2024-09-21T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "MUN",
+  "score": "0-0",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a92728cda98777aee70"
+  },
+  "date": {
+    "$date": "2024-09-15T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "CHE",
+  "score": "0-1",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Christopher Nkunku"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a93728cda98777aee71"
+  },
+  "date": {
+    "$date": "2024-09-15T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "ARS",
+  "score": "0-1",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Gabriel Magalhães"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a94728cda98777aee72"
+  },
+  "date": {
+    "$date": "2024-09-15T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "NEW",
+  "score": "1-2",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Mario Lemina",
+    "Fabian Schär",
+    "Harvey Barnes"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a95728cda98777aee73"
+  },
+  "date": {
+    "$date": "2024-09-14T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "IPS",
+  "score": "0-0",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": []
+},
+{
+  "_id": {
+    "$oid": "67c45a96728cda98777aee74"
+  },
+  "date": {
+    "$date": "2024-09-14T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "LEI",
+  "score": "2-2",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Jean-Philippe Mateta",
+    "Jamie Vardy",
+    "Stephy Mavididi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a97728cda98777aee75"
+  },
+  "date": {
+    "$date": "2024-09-14T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "WHU",
+  "score": "1-1",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Raúl Jiménez",
+    "Danny Ings"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a98728cda98777aee76"
+  },
+  "date": {
+    "$date": "2024-09-14T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "NOT",
+  "score": "0-1",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Callum Hudson-Odoi"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a99728cda98777aee77"
+  },
+  "date": {
+    "$date": "2024-09-14T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "BRE",
+  "score": "2-1",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Erling Haaland",
+    "Yoane Wissa"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a9a728cda98777aee78"
+  },
+  "date": {
+    "$date": "2024-09-14T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "EVE",
+  "score": "3-2",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Ollie Watkins",
+    "Jhon Durán",
+    "Dwight McNeil",
+    "Dominic Calvert-Lewin"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a9c728cda98777aee79"
+  },
+  "date": {
+    "$date": "2024-09-14T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "MUN",
+  "score": "0-3",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Matthijs de Ligt",
+    "Marcus Rashford",
+    "Alejandro Garnacho"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a9e728cda98777aee7a"
+  },
+  "date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "CRY",
+  "score": "1-1",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Nicolas Jackson",
+    "Eberechi Eze"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45a9f728cda98777aee7b"
+  },
+  "date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "TOT",
+  "score": "2-1",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Harvey Barnes",
+    "Alexander Isak",
+    "Dan Burn"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa0728cda98777aee7c"
+  },
+  "date": {
+    "$date": "2024-09-01T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "LIV",
+  "score": "0-3",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Luis Díaz",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa0728cda98777aee7d"
+  },
+  "date": {
+    "$date": "2024-08-31T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "BHA",
+  "score": "1-1",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Kai Havertz",
+    "João Pedro"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa1728cda98777aee7e"
+  },
+  "date": {
+    "$date": "2024-08-31T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "SOU",
+  "score": "3-1",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Bryan Mbeumo",
+    "Yoane Wissa",
+    "Yukinari Sugawara"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa3728cda98777aee7f"
+  },
+  "date": {
+    "$date": "2024-08-31T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "BOU",
+  "score": "2-3",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Michael Keane",
+    "Dominic Calvert-Lewin",
+    "Antoine Semenyo",
+    "Lewis Cook",
+    "Luis Sinisterra"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa4728cda98777aee80"
+  },
+  "date": {
+    "$date": "2024-08-31T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "FUL",
+  "score": "1-1",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Liam Delap",
+    "Adama Traoré"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa5728cda98777aee81"
+  },
+  "date": {
+    "$date": "2024-08-31T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "AVL",
+  "score": "1-2",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Facundo Buonanotte",
+    "Amadou Onana",
+    "Jhon Durán"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa6728cda98777aee82"
+  },
+  "date": {
+    "$date": "2024-08-31T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "WOL",
+  "score": "1-1",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Chris Wood",
+    "Jean-Ricner Bellegarde"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa7728cda98777aee83"
+  },
+  "date": {
+    "$date": "2024-08-31T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "MCI",
+  "score": "1-3",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Rúben Dias",
+    "Erling Haaland"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa8728cda98777aee84"
+  },
+  "date": {
+    "$date": "2024-08-25T00:00:00.000Z"
+  },
+  "team1": "BOU",
+  "team2": "NEW",
+  "score": "1-1",
+  "stadium": "Vitality Stadium, Bournemouth",
+  "status": "completed",
+  "scorer": [
+    "Marcus Tavernier",
+    "Anthony Gordon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aa9728cda98777aee85"
+  },
+  "date": {
+    "$date": "2024-08-25T00:00:00.000Z"
+  },
+  "team1": "WOL",
+  "team2": "CHE",
+  "score": "2-6",
+  "stadium": "Molineux Stadium, Wolverhampton",
+  "status": "completed",
+  "scorer": [
+    "Matheus Cunha",
+    "Jørgen Strand Larsen",
+    "Nicolas Jackson",
+    "Cole Palmer",
+    "Noni Madueke",
+    "João Félix"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aaa728cda98777aee86"
+  },
+  "date": {
+    "$date": "2024-08-25T00:00:00.000Z"
+  },
+  "team1": "LIV",
+  "team2": "BRE",
+  "score": "2-0",
+  "stadium": "Anfield, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Luis Díaz",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aab728cda98777aee87"
+  },
+  "date": {
+    "$date": "2024-08-24T00:00:00.000Z"
+  },
+  "team1": "CRY",
+  "team2": "WHU",
+  "score": "0-2",
+  "stadium": "Selhurst Park, London",
+  "status": "completed",
+  "scorer": [
+    "Tomás Soucek",
+    "Jarrod Bowen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aac728cda98777aee88"
+  },
+  "date": {
+    "$date": "2024-08-24T00:00:00.000Z"
+  },
+  "team1": "FUL",
+  "team2": "LEI",
+  "score": "2-1",
+  "stadium": "Craven Cottage, London",
+  "status": "completed",
+  "scorer": [
+    "Emile Smith Rowe",
+    "Alex Iwobi",
+    "Wout Faes"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aad728cda98777aee89"
+  },
+  "date": {
+    "$date": "2024-08-24T00:00:00.000Z"
+  },
+  "team1": "MCI",
+  "team2": "IPS",
+  "score": "4-1",
+  "stadium": "Etihad Stadium, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Erling Haaland",
+    "Kevin De Bruyne",
+    "Sam Szmodics"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aae728cda98777aee8a"
+  },
+  "date": {
+    "$date": "2024-08-24T00:00:00.000Z"
+  },
+  "team1": "SOU",
+  "team2": "NOT",
+  "score": "0-1",
+  "stadium": "St. Mary's Stadium, Southampton",
+  "status": "completed",
+  "scorer": [
+    "Morgan Gibbs-White"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aaf728cda98777aee8b"
+  },
+  "date": {
+    "$date": "2024-08-24T00:00:00.000Z"
+  },
+  "team1": "TOT",
+  "team2": "EVE",
+  "score": "4-0",
+  "stadium": "Tottenham Hotspur Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Yves Bissouma",
+    "Son Heung-Min",
+    "Cristian Romero"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab0728cda98777aee8c"
+  },
+  "date": {
+    "$date": "2024-08-24T00:00:00.000Z"
+  },
+  "team1": "AVL",
+  "team2": "ARS",
+  "score": "0-2",
+  "stadium": "Villa Park, Birmingham",
+  "status": "completed",
+  "scorer": [
+    "Leandro Trossard",
+    "Thomas Partey"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab0728cda98777aee8d"
+  },
+  "date": {
+    "$date": "2024-08-24T00:00:00.000Z"
+  },
+  "team1": "BHA",
+  "team2": "MUN",
+  "score": "2-1",
+  "stadium": "American Express Stadium, Falmer",
+  "status": "completed",
+  "scorer": [
+    "Danny Welbeck",
+    "João Pedro",
+    "Amad Diallo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab2728cda98777aee8e"
+  },
+  "date": {
+    "$date": "2024-08-20T00:00:00.000Z"
+  },
+  "team1": "LEI",
+  "team2": "TOT",
+  "score": "1-1",
+  "stadium": "King Power Stadium, Leicester",
+  "status": "completed",
+  "scorer": [
+    "Jamie Vardy",
+    "Pedro Porro"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab3728cda98777aee8f"
+  },
+  "date": {
+    "$date": "2024-08-18T00:00:00.000Z"
+  },
+  "team1": "BRE",
+  "team2": "CRY",
+  "score": "2-1",
+  "stadium": "Gtech Community Stadium, Brentford",
+  "status": "completed",
+  "scorer": [
+    "Bryan Mbeumo",
+    "Yoane Wissa",
+    "Ethan Pinnock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab4728cda98777aee90"
+  },
+  "date": {
+    "$date": "2024-08-18T00:00:00.000Z"
+  },
+  "team1": "CHE",
+  "team2": "MCI",
+  "score": "0-2",
+  "stadium": "Stamford Bridge, London",
+  "status": "completed",
+  "scorer": [
+    "Erling Haaland",
+    "Mateo Kovacic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab5728cda98777aee91"
+  },
+  "date": {
+    "$date": "2024-08-17T00:00:00.000Z"
+  },
+  "team1": "MUN",
+  "team2": "FUL",
+  "score": "1-0",
+  "stadium": "Old Trafford, Manchester",
+  "status": "completed",
+  "scorer": [
+    "Joshua Zirkzee"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab6728cda98777aee92"
+  },
+  "date": {
+    "$date": "2024-08-17T00:00:00.000Z"
+  },
+  "team1": "IPS",
+  "team2": "LIV",
+  "score": "0-2",
+  "stadium": "Portman Road, Ipswich",
+  "status": "completed",
+  "scorer": [
+    "Diogo Jota",
+    "Mohamed Salah"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab7728cda98777aee93"
+  },
+  "date": {
+    "$date": "2024-08-17T00:00:00.000Z"
+  },
+  "team1": "ARS",
+  "team2": "WOL",
+  "score": "2-0",
+  "stadium": "Emirates Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Kai Havertz",
+    "Bukayo Saka"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab8728cda98777aee94"
+  },
+  "date": {
+    "$date": "2024-08-17T00:00:00.000Z"
+  },
+  "team1": "EVE",
+  "team2": "BHA",
+  "score": "0-3",
+  "stadium": "Goodison Park, Liverpool",
+  "status": "completed",
+  "scorer": [
+    "Kaoru Mitoma",
+    "Danny Welbeck",
+    "Simon Adingra"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45ab9728cda98777aee95"
+  },
+  "date": {
+    "$date": "2024-08-17T00:00:00.000Z"
+  },
+  "team1": "NEW",
+  "team2": "SOU",
+  "score": "1-0",
+  "stadium": "St. James' Park, Newcastle",
+  "status": "completed",
+  "scorer": [
+    "Joelinton"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45aba728cda98777aee96"
+  },
+  "date": {
+    "$date": "2024-08-17T00:00:00.000Z"
+  },
+  "team1": "NOT",
+  "team2": "BOU",
+  "score": "1-1",
+  "stadium": "The City Ground, Nottingham",
+  "status": "completed",
+  "scorer": [
+    "Chris Wood",
+    "Antoine Semenyo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c45abc728cda98777aee97"
+  },
+  "date": {
+    "$date": "2024-08-17T00:00:00.000Z"
+  },
+  "team1": "WHU",
+  "team2": "AVL",
+  "score": "1-2",
+  "stadium": "London Stadium, London",
+  "status": "completed",
+  "scorer": [
+    "Lucas Paquetá",
+    "Amadou Onana",
+    "Jhon Durán"
+  ]
+}]

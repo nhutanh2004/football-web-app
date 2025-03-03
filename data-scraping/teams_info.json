@@ -1,0 +1,359 @@
+{
+    "Arsenal": {
+        "name": "Arsenal",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t3@x2.png",
+        "short_name": "ARS",
+        "stadium": "Emirates Stadium"
+    },
+    "Aston Villa": {
+        "name": "Aston Villa",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t7.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t7@x2.png",
+        "short_name": "AVL",
+        "stadium": "Villa Park"
+    },
+    "Barnsley": {
+        "name": "Barnsley",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t37.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t37@x2.png",
+        "short_name": "BAR",
+        "stadium": "Oakwell"
+    },
+    "Birmingham City": {
+        "name": "Birmingham City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t41.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t41@x2.png",
+        "short_name": "BIR",
+        "stadium": "St. Andrew's Trillion Trophy Stadium"
+    },
+    "Blackburn Rovers": {
+        "name": "Blackburn Rovers",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t5.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t5@x2.png",
+        "short_name": "BLA",
+        "stadium": "Ewood Park"
+    },
+    "Blackpool": {
+        "name": "Blackpool",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t92.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t92@x2.png",
+        "short_name": "BLA",
+        "stadium": "Bloomfield Road"
+    },
+    "Bolton Wanderers": {
+        "name": "Bolton Wanderers",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t30.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t30@x2.png",
+        "short_name": "BOL",
+        "stadium": "Toughsheet Community Stadium"
+    },
+    "Bournemouth": {
+        "name": "Bournemouth",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t91.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t91@x2.png",
+        "short_name": "BOU",
+        "stadium": "Vitality Stadium"
+    },
+    "Bradford City": {
+        "name": "Bradford City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t55.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t55@x2.png",
+        "short_name": "BRA",
+        "stadium": "Valley Parade"
+    },
+    "Brentford": {
+        "name": "Brentford",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t94.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t94@x2.png",
+        "short_name": "BRE",
+        "stadium": "Gtech Community Stadium"
+    },
+    "Brighton & Hove Albion": {
+        "name": "Brighton & Hove Albion",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t36@x2.png",
+        "short_name": "BHA",
+        "stadium": "American Express Stadium"
+    },
+    "Burnley": {
+        "name": "Burnley",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t90.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t90@x2.png",
+        "short_name": "BUR",
+        "stadium": "Turf Moor"
+    },
+    "Cardiff City": {
+        "name": "Cardiff City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t97.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t97@x2.png",
+        "short_name": "CAR",
+        "stadium": "Cardiff City Stadium"
+    },
+    "Charlton Athletic": {
+        "name": "Charlton Athletic",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t33.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t33@x2.png",
+        "short_name": "CHA",
+        "stadium": "The Valley"
+    },
+    "Chelsea": {
+        "name": "Chelsea",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t8@x2.png",
+        "short_name": "CHE",
+        "stadium": "Stamford Bridge"
+    },
+    "Coventry City": {
+        "name": "Coventry City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t9.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t9@x2.png",
+        "short_name": "COV",
+        "stadium": "Highfield Road"
+    },
+    "Crystal Palace": {
+        "name": "Crystal Palace",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t31.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t31@x2.png",
+        "short_name": "CRY",
+        "stadium": "Selhurst Park"
+    },
+    "Derby County": {
+        "name": "Derby County",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t24.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t24@x2.png",
+        "short_name": "DER",
+        "stadium": "Pride Park Stadium"
+    },
+    "Everton": {
+        "name": "Everton",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t11.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t11@x2.png",
+        "short_name": "EVE",
+        "stadium": "Goodison Park"
+    },
+    "Fulham": {
+        "name": "Fulham",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t54@x2.png",
+        "short_name": "FUL",
+        "stadium": "Craven Cottage"
+    },
+    "Huddersfield Town": {
+        "name": "Huddersfield Town",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t38.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t38@x2.png",
+        "short_name": "HUD",
+        "stadium": "John Smith's Stadium"
+    },
+    "Hull City": {
+        "name": "Hull City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t88.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t88@x2.png",
+        "short_name": "HUL",
+        "stadium": "KCOM Stadium"
+    },
+    "Ipswich Town": {
+        "name": "Ipswich Town",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t40.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t40@x2.png",
+        "short_name": "IPS",
+        "stadium": "Portman Road"
+    },
+    "Leeds United": {
+        "name": "Leeds United",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t2.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t2@x2.png",
+        "short_name": "LEE",
+        "stadium": "Elland Road"
+    },
+    "Leicester City": {
+        "name": "Leicester City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t13.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t13@x2.png",
+        "short_name": "LEI",
+        "stadium": "King Power Stadium"
+    },
+    "Liverpool": {
+        "name": "Liverpool",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t14.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t14@x2.png",
+        "short_name": "LIV",
+        "stadium": "Anfield"
+    },
+    "Luton Town": {
+        "name": "Luton Town",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t102.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t102@x2.png",
+        "short_name": "LUT",
+        "stadium": "Kenilworth Road"
+    },
+    "Manchester City": {
+        "name": "Manchester City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t43@x2.png",
+        "short_name": "MCI",
+        "stadium": "Etihad Stadium"
+    },
+    "Manchester United": {
+        "name": "Manchester United",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t1@x2.png",
+        "short_name": "MUN",
+        "stadium": "Old Trafford"
+    },
+    "Middlesbrough": {
+        "name": "Middlesbrough",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t25.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t25@x2.png",
+        "short_name": "MID",
+        "stadium": "Riverside Stadium"
+    },
+    "Newcastle United": {
+        "name": "Newcastle United",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t4@x2.png",
+        "short_name": "NEW",
+        "stadium": "St. James' Park"
+    },
+    "Norwich City": {
+        "name": "Norwich City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t45.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t45@x2.png",
+        "short_name": "NOR",
+        "stadium": "Carrow Road"
+    },
+    "Nottingham Forest": {
+        "name": "Nottingham Forest",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t17@x2.png",
+        "short_name": "NOT",
+        "stadium": "The City Ground"
+    },
+    "Oldham Athletic": {
+        "name": "Oldham Athletic",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t105.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t105@x2.png",
+        "short_name": "OLD",
+        "stadium": "Boundary Park"
+    },
+    "Portsmouth": {
+        "name": "Portsmouth",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t47.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t47@x2.png",
+        "short_name": "POR",
+        "stadium": "Fratton Park"
+    },
+    "Queens Park Rangers": {
+        "name": "Queens Park Rangers",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t52.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t52@x2.png",
+        "short_name": "QPR",
+        "stadium": "MATRADE Loftus Road Stadium"
+    },
+    "Reading": {
+        "name": "Reading",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t108.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t108@x2.png",
+        "short_name": "REA",
+        "stadium": "Madejski Stadium"
+    },
+    "Sheffield United": {
+        "name": "Sheffield United",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t49.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t49@x2.png",
+        "short_name": "SHU",
+        "stadium": "Bramall Lane"
+    },
+    "Sheffield Wednesday": {
+        "name": "Sheffield Wednesday",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t19.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t19@x2.png",
+        "short_name": "SHW",
+        "stadium": "Hillsborough"
+    },
+    "Southampton": {
+        "name": "Southampton",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t20.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t20@x2.png",
+        "short_name": "SOU",
+        "stadium": "St. Mary's Stadium"
+    },
+    "Stoke City": {
+        "name": "Stoke City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t110.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t110@x2.png",
+        "short_name": "STO",
+        "stadium": "Britannia Stadium"
+    },
+    "Sunderland": {
+        "name": "Sunderland",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t56.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t56@x2.png",
+        "short_name": "SUN",
+        "stadium": "Stadium of Light"
+    },
+    "Swansea City": {
+        "name": "Swansea City",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t80.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t80@x2.png",
+        "short_name": "SWA",
+        "stadium": "Liberty Stadium"
+    },
+    "Swindon Town": {
+        "name": "Swindon Town",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t46.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t46@x2.png",
+        "short_name": "SWI",
+        "stadium": "County Ground"
+    },
+    "Tottenham Hotspur": {
+        "name": "Tottenham Hotspur",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t6.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t6@x2.png",
+        "short_name": "TOT",
+        "stadium": "Tottenham Hotspur Stadium"
+    },
+    "Watford": {
+        "name": "Watford",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t57.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t57@x2.png",
+        "short_name": "WAT",
+        "stadium": "Vicarage Road"
+    },
+    "West Bromwich Albion": {
+        "name": "West Bromwich Albion",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t35.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t35@x2.png",
+        "short_name": "WBA",
+        "stadium": "The Hawthorns"
+    },
+    "West Ham United": {
+        "name": "West Ham United",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t21.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t21@x2.png",
+        "short_name": "WHU",
+        "stadium": "London Stadium"
+    },
+    "Wigan Athletic": {
+        "name": "Wigan Athletic",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t111.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t111@x2.png",
+        "short_name": "WIG",
+        "stadium": "DW Stadium"
+    },
+    "Wimbledon": {
+        "name": "Wimbledon",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t1736.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t1736@x2.png",
+        "short_name": "WIM",
+        "stadium": "Selhurst Park"
+    },
+    "Wolverhampton Wanderers": {
+        "name": "Wolverhampton Wanderers",
+        "logo": "https://resources.premierleague.com/premierleague/badges/50/t39.png",
+        "logo_high": "https://resources.premierleague.com/premierleague/badges/50/t39@x2.png",
+        "short_name": "WOL",
+        "stadium": "Molineux Stadium"
+    }
+}

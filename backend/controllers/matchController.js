@@ -32,6 +32,7 @@ exports.getMatchById = async (req, res) => {
     }
 };
 
+
 // Lấy tất cả trận đấu của một đội bóng
 exports.getMatchesByTeamId = async (req, res) => {
     try {
