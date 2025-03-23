@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -19,10 +20,14 @@ mongoose.connect('mongodb://localhost:27017/footballDB')
 const teamRoutes = require('./routes/teamRoutes');
 const playerRoutes = require('./routes/playerRoutes');
 const matchRoutes = require('./routes/matchRoutes');
+const userRoutes = require('./routes/userRoutes');
+const authRoutes = require('./routes/authRoutes');
 
 app.use('/api/teams', teamRoutes);
 app.use('/api/players', playerRoutes);
 app.use('/api/matches', matchRoutes);
+app.use('/api/users', userRoutes);
+app.use('/api/auth', authRoutes);
 
 // Khởi động server
 app.listen(PORT, '0.0.0.0', () => {
