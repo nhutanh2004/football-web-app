@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to="/matches" className="navbar-link">Matches</Link>
         {isAdmin && (
           <div className="admin-dropdown">
-            <Link to="/admin" className="navbar-link">Admin</Link>
+            <div className="navbar-link">Admin</div>
             <div className="admin-dropdown-content">
               <Link to="/admin/teams" className="navbar-link">Manage Teams</Link>
               <Link to="/admin/players" className="navbar-link">Manage Players</Link>
