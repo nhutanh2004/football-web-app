@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Kết nối MongoDB (không sử dụng useNewUrlParser và useUnifiedTopology)
-mongoose.connect('mongodb://localhost:27017/footballDB')
+mongoose.connect('mongodb://mongo:27017/footballDB')
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('Failed to connect to MongoDB', err));
 

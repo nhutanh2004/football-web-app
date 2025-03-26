@@ -3,6 +3,7 @@ import axios from 'axios';
 
 const AdminMatchesPage = () => {
   const [matches, setMatches] = useState([]);
+  const [teams, setTeams] = useState([]);
   const [newMatch, setNewMatch] = useState({
     date: '',
     team1: '',
@@ -18,9 +19,19 @@ const AdminMatchesPage = () => {
     axios.get('http://localhost:5000/api/matches')
       .then((res) => setMatches(res.data))
       .catch(console.error);
+
+    // Fetch all teams
+    axios.get('http://localhost:5000/api/teams')
+      .then((res) => setTeams(res.data))
+      .catch(console.error);
   }, []);
 
   const handleAddMatch = () => {
+    if (newMatch.team1 === newMatch.team2) {
+      alert('Team 1 and Team 2 must be different!');
+      return;
+    }
+
     axios.post('http://localhost:5000/api/matches', newMatch)
       .then((res) => {
         setMatches([...matches, res.data]);
@@ -30,25 +41,13 @@ const AdminMatchesPage = () => {
   };
 
   const handleEditMatch = () => {
-    // Find the original match data
-    const originalMatch = matches.find((match) => match._id === editingMatch._id);
+    if (editingMatch.team1 === editingMatch.team2) {
+      alert('Team 1 and Team 2 must be different!');
+      return;
+    }
 
-    // Merge the original match data with the updated data, keeping original values for empty fields
-    const updatedMatch = {
-      ...originalMatch,
-      ...editingMatch,
-      date: editingMatch.date || originalMatch.date,
-      team1: editingMatch.team1 || originalMatch.team1,
-      team2: editingMatch.team2 || originalMatch.team2,
-      score: editingMatch.score || originalMatch.score,
-      stadium: editingMatch.stadium || originalMatch.stadium,
-      status: editingMatch.status || originalMatch.status,
-    };
-
-    // Send the updated match data to the backend
-    axios.put(`http://localhost:5000/api/matches/${editingMatch._id}`, updatedMatch)
+    axios.put(`http://localhost:5000/api/matches/${editingMatch._id}`, editingMatch)
       .then((res) => {
-        // Update the matches list with the updated match data
         setMatches(matches.map((match) => (match._id === editingMatch._id ? res.data : match)));
         setEditingMatch(null); // Clear the editing state
       })
@@ -73,18 +72,30 @@ const AdminMatchesPage = () => {
           value={newMatch.date}
           onChange={(e) => setNewMatch({ ...newMatch, date: e.target.value })}
         />
-        <input
-          type="text"
-          placeholder="Team 1"
+        <select
           value={newMatch.team1}
           onChange={(e) => setNewMatch({ ...newMatch, team1: e.target.value })}
-        />
-        <input
-          type="text"
-          placeholder="Team 2"
+        >
+          <option value="">Select Team 1</option>
+          {teams.map((team) => (
+            <option key={team._id} value={team._id}>
+              {team.name}
+            </option>
+          ))}
+        </select>
+        <select
           value={newMatch.team2}
           onChange={(e) => setNewMatch({ ...newMatch, team2: e.target.value })}
-        />
+        >
+          <option value="">Select Team 2</option>
+          {teams
+            .filter((team) => team._id !== newMatch.team1) // Exclude team1 from the options
+            .map((team) => (
+              <option key={team._id} value={team._id}>
+                {team.name}
+              </option>
+            ))}
+        </select>
         <input
           type="text"
           placeholder="Score"
@@ -117,18 +128,30 @@ const AdminMatchesPage = () => {
             value={editingMatch.date}
             onChange={(e) => setEditingMatch({ ...editingMatch, date: e.target.value })}
           />
-          <input
-            type="text"
-            placeholder="Team 1"
+          <select
             value={editingMatch.team1}
             onChange={(e) => setEditingMatch({ ...editingMatch, team1: e.target.value })}
-          />
-          <input
-            type="text"
-            placeholder="Team 2"
+          >
+            <option value="">Select Team 1</option>
+            {teams.map((team) => (
+              <option key={team._id} value={team._id}>
+                {team.name}
+              </option>
+            ))}
+          </select>
+          <select
             value={editingMatch.team2}
             onChange={(e) => setEditingMatch({ ...editingMatch, team2: e.target.value })}
-          />
+          >
+            <option value="">Select Team 2</option>
+            {teams
+              .filter((team) => team._id !== editingMatch.team1) // Exclude team1 from the options
+              .map((team) => (
+                <option key={team._id} value={team._id}>
+                  {team.name}
+                </option>
+              ))}
+          </select>
           <input
             type="text"
             placeholder="Score"
@@ -161,11 +184,10 @@ const AdminMatchesPage = () => {
           {matches.map((match) => (
             <li key={match._id}>
               {match.date} - {match.team1.name} vs {match.team2.name} - {match.score} - {match.status}
-               -{match.stadium} - 
-               {match.scorer.map((scorer, index) => (
+              - {match.stadium} -
+              {match.scorer.map((scorer, index) => (
                 <li key={index}>{scorer}</li>
-              ))} 
-              
+              ))}
               <button onClick={() => setEditingMatch(match)}>Edit</button>
               <button onClick={() => handleDeleteMatch(match._id)}>Delete</button>
             </li>

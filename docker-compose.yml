@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000" # Map backend port 5000 to the host
+    environment:
+      - PORT=5000
+      - MONGO_URI=mongodb://mongo:27017/footballDB # MongoDB connection string
+    depends_on:
+      - mongo
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173" # Map Vite's default port to the host
+    volumes:
+      - ./frontend:/app # Mount the frontend directory for live updates
+      - /app/node_modules # Prevent overwriting node_modules
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - backend
+
+  mongo:
+    image: mongo:6.0
+    container_name: football-mongo
+    ports:
+      - "27017:27017" # Map MongoDB port 27017 to the host
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
