@@ -31,10 +31,26 @@ const AdminPlayersPage = () => {
 
   // Add a new player
   const handleAddPlayer = () => {
+    if (!newPlayer.name.trim()) {
+      alert('Player name is required!');
+      return;
+    }
+  
+    // Check for missing team
+    if (!newPlayer.team.trim()) {
+      alert('Team selection is required!');
+      return;
+    }
     axios.post('http://localhost:5000/api/players', newPlayer)
-      .then((res) => setPlayers([...players, res.data]))
-      .catch(console.error);
-
+      .then((res) => {
+        setPlayers([...players, res.data]);
+        alert('Player added successfully!');
+      })
+      .catch((err) => {
+        console.error(err);
+        alert('Failed to add player. Please try again!');
+      });
+  
     setNewPlayer({
       name: '',
       birthday: '',
@@ -45,13 +61,10 @@ const AdminPlayersPage = () => {
       avatarUrl: '',
     });
   };
-
-  // Edit an existing player
+  //Edit a player
   const handleEditPlayer = () => {
-    // Find the original player data
+    
     const originalPlayer = players.find((player) => player._id === editingPlayer._id);
-
-    // Merge the original player data with the updated data, keeping original values for empty fields
     const updatedPlayer = {
       ...originalPlayer,
       ...editingPlayer,
@@ -63,24 +76,29 @@ const AdminPlayersPage = () => {
       number: editingPlayer.number || originalPlayer.number,
       avatarUrl: editingPlayer.avatarUrl || originalPlayer.avatarUrl,
     };
-
-    // Send the updated player data to the backend
+  
     axios.put(`http://localhost:5000/api/players/${editingPlayer._id}`, updatedPlayer)
       .then((res) => {
-        // Update the players list with the updated player data
         setPlayers(players.map((player) => (player._id === editingPlayer._id ? res.data : player)));
-        setEditingPlayer(null); // Clear the editing state
+        alert('Player updated successfully!');
+        setEditingPlayer(null); // Clear editing state
       })
       .catch(console.error);
   };
-
   // Delete a player
   const handleDeletePlayer = (id) => {
     axios.delete(`http://localhost:5000/api/players/${id}`)
-      .then(() => setPlayers(players.filter((player) => player._id !== id)))
+      .then(() => {
+        setPlayers(players.filter((player) => player._id !== id));
+        setEditingPlayer(null); // Clear editing state
+        alert('Player deleted successfully!');
+      })
       .catch(console.error);
   };
-
+  const handleImageError = (e) => {
+    e.target.src = 'https://resources.premierleague.com/premierleague/photos/players/250x250/Photo-Missing.png'; // Import the default image
+  };
+  
   return (
     <div className="admin-players-page">
       <h1>Manage Players</h1>
@@ -204,7 +222,10 @@ const AdminPlayersPage = () => {
             const team = teams.find((team) => team._id === player.team._id); // Find the team object
             return (
               <li key={player._id}>
-                <img src={player.avatarUrl} alt={player.name} style={{ width: '50px', height: '50px' }} />
+                <img src={player.avatarUrl || 
+                'https://resources.premierleague.com/premierleague/photos/players/250x250/Photo-Missing.png'} 
+                alt={player.name} onError={handleImageError}
+                style={{ width: '50px', height: '50px' }} />
                 {player.name} - {player.position} - {team ? team.name : 'Unknown Team'} - {player.number} - {player.country} - {player.birthday}
                 <button onClick={() => setEditingPlayer(player)}>Edit</button>
                 <button onClick={() => handleDeletePlayer(player._id)}>Delete</button>

@@ -25,10 +25,22 @@ const MatchPage = () => {
       </p>
       <p><strong>Stadium:</strong> {match.stadium}</p>
       <p><strong>Score:</strong> {match.score}</p>
-      <p><strong>Scorers:</strong></p>
+      <p><strong>{match.team1.name} Scorers:</strong></p>
       <ul>
-        {match.scorer.map((scorer, index) => (
-          <li key={index}>{scorer}</li>
+        {match.team1_scorer.map((scorer, index) => (
+          <li key={index}>
+            {scorer.scorerId.name} - Minute: {scorer.minute} 
+            {scorer.ownGoal && <span> (Own Goal)</span>}
+          </li>
+        ))}
+      </ul>
+      <p><strong>{match.team2.name} Scorers:</strong></p>
+      <ul>
+        {match.team2_scorer.map((scorer, index) => (
+          <li key={index}>
+            {scorer.scorerId.name} - Minute: {scorer.minute} 
+            {scorer.ownGoal && <span> (Own Goal)</span>}
+          </li>
         ))}
       </ul>
       <p><strong>Status:</strong> {match.status}</p>

@@ -3,7 +3,11 @@ const Match = require('../models/Match');
 // Lấy tất cả trận đấu
 exports.getAllMatches = async (req, res) => {
     try {
-        const matches = await Match.find().populate('team1 team2'); // Populate thông tin đội bóng
+        const matches = await Match.find()
+            .populate('team1 team2') // Populate team1 and team2
+            .populate('team1_scorer.scorerId') // Populate team1_scorer details
+            .populate('team2_scorer.scorerId'); // Populate team2_scorer details
+        
         res.json(matches);
     } catch (err) {
         res.status(500).json({ message: err.message });
@@ -24,7 +28,11 @@ exports.createMatch = async (req, res) => {
 // Lấy thông tin trận đấu bằng ID
 exports.getMatchById = async (req, res) => {
     try {
-        const match = await Match.findById(req.params.id).populate('team1 team2'); // Populate thông tin đội bóng
+        const match = await Match.findById(req.params.id)
+            .populate('team1 team2') // Populate team1 and team2
+            .populate('team1_scorer.scorerId') // Populate team1_scorer details
+            .populate('team2_scorer.scorerId'); // Populate team2_scorer details
+            
         if (!match) return res.status(404).json({ message: 'Match not found' });
         res.json(match);
     } catch (err) {
@@ -32,13 +40,15 @@ exports.getMatchById = async (req, res) => {
     }
 };
 
-
 // Lấy tất cả trận đấu của một đội bóng
 exports.getMatchesByTeamId = async (req, res) => {
     try {
         const matches = await Match.find({
             $or: [{ team1: req.params.teamId }, { team2: req.params.teamId }]
-        }).populate('team1 team2'); // Populate thông tin đội bóng
+        })
+            .populate('team1 team2') // Populate team1 and team2
+            .populate('team1_scorer.scorerId') // Populate team1_scorer details 
+            .populate('team2_scorer.scorerId'); // Populate team2_scorer details
         res.json(matches);
     } catch (err) {
         res.status(500).json({ message: err.message });
@@ -48,7 +58,10 @@ exports.getMatchesByTeamId = async (req, res) => {
 // Cập nhật thông tin trận đấu
 exports.updateMatch = async (req, res) => {
     try {
-        const match = await Match.findByIdAndUpdate(req.params.id, req.body, { new: true });
+        const match = await Match.findByIdAndUpdate(req.params.id, req.body, { new: true })
+            .populate('team1 team2') // Populate team1 and team2
+            .populate('team1_scorer.scorerId') // Populate team1_scorer details
+            .populate('team2_scorer.scorerId'); // Populate team2_scorer details
         if (!match) return res.status(404).json({ message: 'Match not found' });
         res.json(match);
     } catch (err) {

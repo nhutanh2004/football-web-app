@@ -21,6 +21,10 @@ class StorageMongoDB:
 
     def find_players(self, team_id):
         return list(self.db.players.find({"team": team_id}))
+    
+    def find_scorer(self, name):
+        query = {"name": name}
+        return self.db.players.find_one(query)
 
 storage_mongodb = StorageMongoDB(
     host="localhost",
@@ -51,33 +55,104 @@ mapping_team = {
     "Leicester": "LEI","Leicester City": "LEI"
 }
 
-def get_scorers(match_url):
+def get_scorers(match_url, team1, team2):
     response = requests.get(match_url)
     soup = BeautifulSoup(response.content, "html.parser")
-    scorers = []
+    scorers = {
+        "team1_scorer": [],  # Scored for team1 (home)
+        "team2_scorer": []   # Scored for team2 (away)
+    }
 
-    events = soup.find_all("div", class_="mc-summary__event")
-    for event in events:
-        scorer_ele = event.find("a", class_="mc-summary__scorer")
-        if scorer_ele:
-            first_name_ele = scorer_ele.find("div", class_="mc-summary__scorer-name-first")
-            last_name_ele = scorer_ele.find("div", class_="mc-summary__scorer-name-last")
-            if first_name_ele and last_name_ele:
-                first_name = first_name_ele.text.strip()
-                last_name = last_name_ele.text.strip()
-                full_name = f"{first_name} {last_name}"
-                scorers.append(full_name)
-            elif first_name_ele:
-                first_name = first_name_ele.text.strip()
-                scorers.append(first_name)
-            elif last_name_ele:
-                last_name = last_name_ele.text.strip()
-                scorers.append(last_name)
-            else:
-                print("No scorer found")
-                continue
-            
+    # Handle home (team1) scorers
+    home_events = soup.find("div", class_="matchEvents matchEventsContainer home")
+    if home_events:
+        events = home_events.find_all("div", class_="mc-summary__event")
+        for event in events:
+            scorer_name, minute, own_goal = extract_event_details(event, team1)
+            if scorer_name:
+                scorers["team1_scorer"].append({
+                    "scorerId": find_scorer_id(scorer_name),
+                    "minute": minute,
+                    "ownGoal": own_goal
+                })
+
+    # Handle away (team2) scorers
+    away_events = soup.find("div", class_="matchEvents matchEventsContainer away")
+    if away_events:
+        events = away_events.find_all("div", class_="mc-summary__event")
+        for event in events:
+            scorer_name, minute, own_goal = extract_event_details(event, team2)
+            if scorer_name:
+                scorers["team2_scorer"].append({
+                    "scorerId": find_scorer_id(scorer_name),
+                    "minute": minute,
+                    "ownGoal": own_goal
+                })
+
     return scorers
+
+
+def extract_event_details(event, scoring_team):
+    """Extract scorer details, including minute and own goal detection."""
+    minute_ele = event.find("span", class_="mc-summary__event-time")
+    scorer_ele = event.find("a", class_="mc-summary__scorer")
+    icon_ele = minute_ele.find("img") if minute_ele else None
+
+    # Get scoring minute
+    minute_text = minute_ele.text.strip().replace("'", "") if minute_ele else None
+    minute = int(minute_text) if minute_text and minute_text.isdigit() else None
+
+    # Extract scorer name
+    first_name_ele = scorer_ele.find("div", class_="mc-summary__scorer-name-first") if scorer_ele else None
+    last_name_ele = scorer_ele.find("div", class_="mc-summary__scorer-name-last") if scorer_ele else None
+    first_name = first_name_ele.text.strip() if first_name_ele else ""
+    last_name = last_name_ele.text.strip() if last_name_ele else ""
+    first_name = first_name.replace("'", "")
+    last_name = last_name.replace("'", "")
+    last_name = last_name.replace(" ", "")
+    scorer_name = f"{first_name} {last_name}".strip()
+
+    # Detect own goal based on icon
+    own_goal = False
+    if icon_ele and "og-w" in icon_ele["src"]:  # Own goal detected
+        own_goal = True
+
+    return scorer_name, minute, own_goal
+
+
+def find_scorer_id(name):
+    """Fetch scorer ID from the database."""
+    scorer_doc = storage_mongodb.find_scorer(name)
+    return scorer_doc["_id"] if scorer_doc else None
+
+def get_kickoff_time(match_url, retries=3, delay=15):
+    """Extracts the kickoff time from the match page with retry logic."""
+    for attempt in range(retries):
+        response = requests.get(match_url)
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        # Locate the element containing the kickoff time
+        kickoff_ele = soup.find("span", class_="renderKOContainer")
+        if kickoff_ele:
+            # Extract Unix timestamp from `data-kickoff`
+            kickoff_timestamp = kickoff_ele.get("data-kickoff")
+            if kickoff_timestamp:
+                # Convert Unix timestamp to datetime
+                timestamp = int(kickoff_timestamp) / 1000  # Convert milliseconds to seconds
+                readable_time = datetime.fromtimestamp(timestamp)
+                print(f"Converted Kickoff Time: {readable_time}")
+                return readable_time.strftime('%d-%m-%Y %H:%M:%S')
+            else:
+                print("Kickoff timestamp not found in data-kickoff.")
+                return None
+        else:
+            print(f"Kickoff element not found. Attempt {attempt + 1} of {retries}. Retrying in {delay} seconds...")
+            time.sleep(delay)  # Wait before retrying
+
+    print("Max retries reached. Kickoff time could not be retrieved.")
+    return None
+
+
 
 def get_matches():
     content = open("matches_2024-2025.html", "r").read()
@@ -92,16 +167,20 @@ def get_matches():
         time_ele = date_ele.find("time", class_="fixtures__date fixtures__date--long")
 
         date_str = time_ele.text.strip()
-        date = datetime.strptime(date_str, "%A %d %B %Y")
+        
 
         for match in matches:
+            
             # if match_count >= 2:
-            #     return  # Stop after processing two matches
+                # return  # Stop after processing two matches
 
             teams = match.find_all("span", class_="match-fixture__short-name")
             score_ele = match.find("span", class_="match-fixture__score")
             stadium_ele = match.find("span", class_="match-fixture__stadium-name")
             match_url = "https:" + match["data-href"]
+            kickoff_time = get_kickoff_time(match_url)  # Call the function to get the time
+            datetime_str = f"{kickoff_time}"
+            date = datetime.strptime(datetime_str, "%d-%m-%Y %H:%M:%S")  # Parse into datetime
 
             team1 = mapping_team.get(teams[0].text, teams[0].text)
             team2 = mapping_team.get(teams[1].text, teams[1].text)
@@ -122,15 +201,9 @@ def get_matches():
             team1_id = team1_doc["_id"]
             team2_id = team2_doc["_id"]
 
-            players1 = storage_mongodb.find_players(team1_id)
-            players2 = storage_mongodb.find_players(team2_id)
-
-            if len(players1) == 0 or len(players2) == 0:
-                print(f"No players found for teams: {team1 if len(players1) == 0 else team2}")
-                continue
-
-            scorers = get_scorers(match_url)
-            print(f"Scorers: {scorers}")
+            scorers = get_scorers(match_url, team1, team2)
+            # print(f"Team 1 Scorers: {scorers['team1_scorer']}")
+            # print(f"Team 2 Scorers: {scorers['team2_scorer']}")
 
             match_data = {
                 "_id": ObjectId(), 
@@ -140,7 +213,8 @@ def get_matches():
                 "score": f"{score1}-{score2}",
                 "stadium": stadium,
                 "status": "completed",
-                "scorer": scorers,  
+                "team1_scorer": scorers["team1_scorer"],  
+                "team2_scorer": scorers["team2_scorer"],  
             }
 
             try:
@@ -150,5 +224,6 @@ def get_matches():
                 print(f"Error: {e}")
 
             # match_count += 1  # Increment the match counter
+        time.sleep(1)
 
 get_matches()

@@ -20,6 +20,13 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
         minlength: 10,
+        validate: {
+            validator: function (value) {
+                // Regex to enforce at least one uppercase, one lowercase, one digit, and one special character
+                return /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{10,}$/.test(value);
+            },
+            message: 'Password must be at least 10 characters long and include uppercase letters, lowercase letters, numbers, and special characters.',
+        },
     },
     isAdmin: {
         type: Boolean,

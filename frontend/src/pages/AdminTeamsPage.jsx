@@ -23,6 +23,11 @@ const AdminTeamsPage = () => {
   }, []);
 
   const handleAddTeam = () => {
+    if (!newTeam._id.trim()) {
+      alert('Team ID cannot be empty or whitespace!');
+      return;
+    }
+    
     axios.post('http://localhost:5000/api/teams', newTeam)
       .then((res) => {
         setTeams([...teams, res.data]);
@@ -36,6 +41,7 @@ const AdminTeamsPage = () => {
           logo_low: '',
           total_player: '',
         });
+        alert('Team added successfully!');
       })
       .catch(console.error);
   };
@@ -63,15 +69,23 @@ const AdminTeamsPage = () => {
         // Update the teams list with the updated team data
         setTeams(teams.map((team) => (team._id === editingTeam._id ? res.data : team)));
         setEditingTeam(null); // Clear the editing state
+        alert('Team updated successfully!');
       })
       .catch(console.error);
   };
 
   const handleDeleteTeam = (id) => {
     axios.delete(`http://localhost:5000/api/teams/${id}`)
-      .then(() => setTeams(teams.filter((team) => team._id !== id)))
+      .then(() => {
+        setTeams(teams.filter((team) => team._id !== id));
+        if (editingTeam && editingTeam._id === id) {
+          setEditingTeam(null); // Clear editing state
+        }
+        alert('Team delete successfully!');
+      })
       .catch(console.error);
   };
+  
 
   return (
     <div className="admin-teams-page">

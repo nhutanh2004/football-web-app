@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67df04f61b51b63335292838"
+  },
+  "username": "testuser",
+  "email": "testuser@example.com",
+  "password": "$2b$10$dWyp/87rZPjd3M27RgwXmeE/st/.lcNgRVGCUH6JFYXSypFBAIsSa",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67df0789abf4eb40a5401274"
+  },
+  "username": "kurodead",
+  "email": "phamhuynhnanh99@gmail.com",
+  "password": "$2b$10$yeZGFM1XtepNsJ3O7UTrqeRh5RUZgtgr54fMop5x20Q5x1FImQrHW",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67df6e97203fb40bac855f00"
+  },
+  "username": "kurodead1",
+  "email": "phamhuynhnanh@gmail.com",
+  "password": "$2b$10$3wClFrUcQ8Yuh.HY7AUI8u.08ocf1ZMN0EkMGsJCzaE4kRfuzoTt2",
+  "isAdmin": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67df7289a5fe72a6051e6d3b"
+  },
+  "username": "admin",
+  "email": "admin@example.com",
+  "password": "$2b$10$20aS1N./mllnrDLhiu.x/.S5X7c1N4Ay0v2PMuTBXNxtbFewWBADm",
+  "isAdmin": true,
+  "__v": 0
+}]

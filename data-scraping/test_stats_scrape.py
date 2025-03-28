@@ -6,7 +6,7 @@ import time
 
 # Set up Selenium WebDriver
 driver = webdriver.Chrome()  # Ensure ChromeDriver is installed and in PATH
-driver.get("https://www.premierleague.com/match/116092")  # Replace with the desired webpage URL
+driver.get("https://www.premierleague.com/match/116090")  # Replace with the desired webpage URL
 
 # Handle the cookie consent popup
 try:

@@ -9,7 +9,7 @@
 }
 
 .match-card {
-  background-color: #fff;
+  background-color: inherit;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -25,6 +25,7 @@
 
 .match-card-content {
   padding: 20px;
+  background-color: inherit;
 }
 
 .match-card-content h2 {

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
-
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 const LoginPage = () => {
   const [formData, setFormData] = useState({
     username: '',
     password: '',
   });
+  const [showPassword, setShowPassword] = useState(false); // State for password visibility
   const [error, setError] = useState('');
   const navigate = useNavigate();
   const location = useLocation();
@@ -20,7 +21,6 @@ const LoginPage = () => {
     e.preventDefault();
     try {
       const response = await axios.post('http://localhost:5000/api/auth/login', formData);
-      // console.log('Login Response:', response.data); // Debugging: Check the response
       localStorage.setItem('token', response.data.token); // Save the token
       localStorage.setItem('isAdmin', response.data.isAdmin.toString()); // Save isAdmin as a string
       navigate('/'); // Redirect to the homepage
@@ -47,16 +47,44 @@ const LoginPage = () => {
         </div>
         <div style={{ marginBottom: '10px' }}>
           <label>Password:</label>
-          <input
-            type="password"
-            name="password"
-            value={formData.password}
-            onChange={handleChange}
-            required
-            style={{ width: '100%', padding: '8px', marginTop: '5px' }}
-          />
+          <div style={{ position: 'relative' }}>
+            <input
+              type={showPassword ? 'text' : 'password'}
+              name="password"
+              value={formData.password}
+              onChange={handleChange}
+              required
+              style={{ width: '100%', padding: '8px', marginTop: '5px' }}
+            />
+            <button
+              type="button"
+              onClick={() => setShowPassword(!showPassword)}
+              style={{
+                position: 'absolute',
+                right: '10px',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                background: 'none',
+                border: 'none',
+                cursor: 'pointer',
+                color: 'grey',
+                padding: '0',
+              }}
+            >
+              {showPassword ? <FaEye /> : <FaEyeSlash />}
+            </button>
+          </div>
         </div>
-        <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#007bff', color: '#fff', border: 'none', cursor: 'pointer' }}>
+        <button
+          type="submit"
+          style={{
+            padding: '10px 20px',
+            backgroundColor: '#007bff',
+            color: '#fff',
+            border: 'none',
+            cursor: 'pointer',
+          }}
+        >
           Login
         </button>
       </form>
