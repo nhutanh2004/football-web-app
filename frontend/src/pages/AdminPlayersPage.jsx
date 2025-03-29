@@ -41,7 +41,18 @@ const AdminPlayersPage = () => {
       alert('Team selection is required!');
       return;
     }
-    axios.post('http://localhost:5000/api/players', newPlayer)
+    const token = localStorage.getItem('token'); // Get the token from local storage
+    if (!token) {
+      alert('You must be logged in to edit a team!');
+      return;
+    }
+    axios.post('http://localhost:5000/api/players', newPlayer,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include token in the request header
+        },
+      }
+    )
       .then((res) => {
         setPlayers([...players, res.data]);
         alert('Player added successfully!');
@@ -63,6 +74,11 @@ const AdminPlayersPage = () => {
   };
   //Edit a player
   const handleEditPlayer = () => {
+    const token = localStorage.getItem('token'); // Get the token from local storage
+    if (!token) {
+      alert('You must be logged in to edit a team!');
+      return;
+    }
     
     const originalPlayer = players.find((player) => player._id === editingPlayer._id);
     const updatedPlayer = {
@@ -77,7 +93,13 @@ const AdminPlayersPage = () => {
       avatarUrl: editingPlayer.avatarUrl || originalPlayer.avatarUrl,
     };
   
-    axios.put(`http://localhost:5000/api/players/${editingPlayer._id}`, updatedPlayer)
+    axios.put(`http://localhost:5000/api/players/${editingPlayer._id}`, updatedPlayer,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include token in the request header
+        },
+      }
+    )
       .then((res) => {
         setPlayers(players.map((player) => (player._id === editingPlayer._id ? res.data : player)));
         alert('Player updated successfully!');
@@ -87,7 +109,18 @@ const AdminPlayersPage = () => {
   };
   // Delete a player
   const handleDeletePlayer = (id) => {
-    axios.delete(`http://localhost:5000/api/players/${id}`)
+    const token = localStorage.getItem('token'); // Get the token from local storage
+    if (!token) {
+      alert('You must be logged in to edit a team!');
+      return;
+    }
+    axios.delete(`http://localhost:5000/api/players/${id}`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include token in the request header
+        },
+      }
+    )
       .then(() => {
         setPlayers(players.filter((player) => player._id !== id));
         setEditingPlayer(null); // Clear editing state

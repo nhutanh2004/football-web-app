@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './AdminTeamsPage.css';
 
 const AdminTeamsPage = () => {
   const [teams, setTeams] = useState([]);
@@ -23,12 +24,23 @@ const AdminTeamsPage = () => {
   }, []);
 
   const handleAddTeam = () => {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      alert('You must be logged in to add a team!');
+      return;
+    }
     if (!newTeam._id.trim()) {
       alert('Team ID cannot be empty or whitespace!');
       return;
     }
     
-    axios.post('http://localhost:5000/api/teams', newTeam)
+    axios.post('http://localhost:5000/api/teams', newTeam,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include token in the request header
+        },
+      }
+    )
       .then((res) => {
         setTeams([...teams, res.data]);
         setNewTeam({
@@ -47,6 +59,11 @@ const AdminTeamsPage = () => {
   };
 
   const handleEditTeam = () => {
+    const token = localStorage.getItem('token'); // Get the token from local storage
+    if (!token) {
+      alert('You must be logged in to edit a team!');
+      return;
+    }
     // Find the original team data
     const originalTeam = teams.find((team) => team._id === editingTeam._id);
 
@@ -64,7 +81,13 @@ const AdminTeamsPage = () => {
     };
 
     // Send the updated team data to the backend
-    axios.put(`http://localhost:5000/api/teams/${editingTeam._id}`, updatedTeam)
+    axios.put(`http://localhost:5000/api/teams/${editingTeam._id}`, updatedTeam,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include token in the request header
+        },
+      }
+    )
       .then((res) => {
         // Update the teams list with the updated team data
         setTeams(teams.map((team) => (team._id === editingTeam._id ? res.data : team)));
@@ -75,7 +98,16 @@ const AdminTeamsPage = () => {
   };
 
   const handleDeleteTeam = (id) => {
-    axios.delete(`http://localhost:5000/api/teams/${id}`)
+    const token = localStorage.getItem('token'); // Get the token from local storage
+    if (!token) {
+      alert('You must be logged in to delete a team!');
+      return;
+    }
+    axios.delete(`http://localhost:5000/api/teams/${id}`,{
+      headers: {
+        Authorization: `Bearer ${token}`, // Include token in the request header
+      },
+    })
       .then(() => {
         setTeams(teams.filter((team) => team._id !== id));
         if (editingTeam && editingTeam._id === id) {
@@ -203,7 +235,8 @@ const AdminTeamsPage = () => {
           {teams.map((team) => (
             <li key={team._id} style={{ marginBottom: '20px' }}>
               <div>
-                <strong>{team.name}</strong> - {team.stadium} - {team.coach} - {team.total_player} players - Founded: {team.founded}
+                <strong>{team.name}</strong> - {team.stadium} - Coach: {(!team.coach || team.coach === ' - ') ? 'Unknown' : team.coach} 
+                - {team.total_player} players - Founded: {(team.founded==='-'||!team.founded)?'Unknown':team.founded}
               </div>
               <div>
                 <img

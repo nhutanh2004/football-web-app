@@ -35,12 +35,23 @@ const AdminMatchesPage = () => {
   }, []);
 
   const handleAddMatch = () => {
+    const token = localStorage.getItem('token'); // Get the token from local storage
+    if (!token) {
+      alert('You must be logged in to edit a team!');
+      return;
+    }
     if (newMatch.team1 === newMatch.team2 && newMatch.team1 !== '') {
       alert('Team 1 and Team 2 must be different!');
       return;
     }
 
-    axios.post('http://localhost:5000/api/matches', newMatch)
+    axios.post('http://localhost:5000/api/matches', newMatch,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include token in the request header
+        },
+      }
+    )
       .then((res) => {
         setMatches([...matches, res.data]);
         setNewMatch({
@@ -58,12 +69,23 @@ const AdminMatchesPage = () => {
   };
 
   const handleEditMatch = () => {
-    if (editingMatch.team1 === editingMatch.team2) {
+    const token = localStorage.getItem('token'); // Get the token from local storage
+    if (!token) {
+      alert('You must be logged in to edit a team!');
+      return;
+    }
+    if (editingMatch.team1 === editingMatch.team2 && editingMatch.team1 !== '') {
       alert('Team 1 and Team 2 must be different!');
       return;
     }
 
-    axios.put(`http://localhost:5000/api/matches/${editingMatch._id}`, editingMatch)
+    axios.put(`http://localhost:5000/api/matches/${editingMatch._id}`, editingMatch,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include token in the request header
+        },
+      }
+    )
       .then((res) => {
         setMatches(matches.map((match) => (match._id === editingMatch._id ? res.data : match)));
         setEditingMatch(null); // Clear the editing state
@@ -72,7 +94,18 @@ const AdminMatchesPage = () => {
   };
 
   const handleDeleteMatch = (id) => {
-    axios.delete(`http://localhost:5000/api/matches/${id}`)
+    const token = localStorage.getItem('token'); // Get the token from local storage
+    if (!token) {
+      alert('You must be logged in to edit a team!');
+      return;
+    }
+    axios.delete(`http://localhost:5000/api/matches/${id}`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`, // Include token in the request header
+        },
+      }
+    )
       .then(() => setMatches(matches.filter((match) => match._id !== id)))
       .catch(console.error);
   };

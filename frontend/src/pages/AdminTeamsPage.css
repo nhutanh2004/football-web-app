@@ -1,0 +1,14 @@
+input
+{
+  padding: 8px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  width: 20%;
+}
+select
+{
+  padding: 8px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  width: 20%;
+}
