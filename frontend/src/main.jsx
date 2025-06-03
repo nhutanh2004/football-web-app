@@ -11,6 +11,7 @@ import TeamPage from './pages/TeamPage';
 import MatchPage from './pages/MatchPage';
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
+import UserManagerPage from "./pages/UserManagerPage";
 import AdminPlayersPage from './pages/AdminPlayersPage';
 import AdminTeamsPage from './pages/AdminTeamsPage'; // Import AdminTeamsPage
 import AdminMatchesPage from './pages/AdminMatchesPage'; // Import AdminMatchesPage
@@ -73,6 +74,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             element={
               <ProtectedRoute admin>
                 <AdminMatchesPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route 
+            path="admin/users"
+            element={
+              <ProtectedRoute admin>
+                <UserManagerPage />
               </ProtectedRoute>
             }
           />

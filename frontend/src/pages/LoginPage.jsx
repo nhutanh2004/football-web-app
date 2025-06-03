@@ -31,11 +31,11 @@ const LoginPage = () => {
 
   return (
     <div style={{ maxWidth: '400px', margin: '0 auto', padding: '20px' }}>
-      <h1>Login</h1>
+      <h1>Đăng nhập</h1>
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: '10px' }}>
-          <label>Username:</label>
+          <label>Tên Đăng Nhập:</label>
           <input
             type="text"
             name="username"
@@ -46,7 +46,7 @@ const LoginPage = () => {
           />
         </div>
         <div style={{ marginBottom: '10px' }}>
-          <label>Password:</label>
+          <label>Mật Khẩu:</label>
           <div style={{ position: 'relative' }}>
             <input
               type={showPassword ? 'text' : 'password'}

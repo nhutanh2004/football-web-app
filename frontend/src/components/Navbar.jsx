@@ -27,6 +27,7 @@ const Navbar = () => {
               <Link to="/admin/teams" className="navbar-link">Manage Teams</Link>
               <Link to="/admin/players" className="navbar-link">Manage Players</Link>
               <Link to="/admin/matches" className="navbar-link">Manage Matches</Link>
+              <Link to="/admin/users" className="navbar-link">Manage Users</Link>
             </div>
           </div>
         )}
