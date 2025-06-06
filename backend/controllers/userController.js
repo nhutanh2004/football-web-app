@@ -67,10 +67,10 @@ exports.getUserById = async (req, res) => {
 exports.updateUser = async (req, res) => {
     try {
         const { id } = req.params;
-        const { username, email, password, isAdmin , role} = req.body;
+        const { username, email, password, isAdmin , role, currentPassword, newPassword } = req.body;
 
         // Allow updates if the user is an admin or the user themselves
-        if (req.user.id !== id && !req.user.role === 'admin') {
+        if (req.user.id !== id && req.user.role !== 'admin') {
             return res.status(403).json({ message: 'Access denied' });
         }
 
@@ -81,6 +81,23 @@ exports.updateUser = async (req, res) => {
 
         if (username) user.username = username;
         if (email) user.email = email;
+        // Handle password change
+        if (currentPassword && newPassword) {
+            const isMatch = await bcrypt.compare(currentPassword, user.password);
+            if (!isMatch) {
+                return res.status(400).json({ message: 'Current password is incorrect' });
+            }
+
+            // Validate new password format manually if needed
+            const strongPasswordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{10,}$/;
+            if (!strongPasswordRegex.test(newPassword)) {
+                return res.status(400).json({ message: 'New password does not meet security requirements' });
+            }
+
+            
+            user.password = newPassword;
+        }
+
         if (password) {
             const salt = await bcrypt.genSalt(10);
             user.password = await bcrypt.hash(password, salt);

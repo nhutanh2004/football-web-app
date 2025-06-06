@@ -35,7 +35,10 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         {token ? (
+          <>
+          <Link to="/profile" className="navbar-link">Profile</Link>
           <button onClick={handleLogout} className="navbar-button">Logout</button>
+          </>
         ) : (
           <>
             <Link to="/login" className="navbar-link">Login</Link>

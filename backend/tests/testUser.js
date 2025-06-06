@@ -14,8 +14,9 @@ const runTest = async () => {
         const testUser = new User({
             username: 'admin',
             email: 'admin@example.com',
-            password: 'adminpassword',
+            password: 'Nhutanh@123!',
             isAdmin: true,
+            role: 'admin',
         });
 
         // Save the user to the database
@@ -30,9 +31,9 @@ const runTest = async () => {
         }
 
         // Test a matching password
-        user.comparePassword('adminpassword', (err, isMatch) => {
+        user.comparePassword('Nhutanh@123!', (err, isMatch) => {
             if (err) throw err;
-            console.log('adminpassword:', isMatch); // -> Password123: true
+            console.log('Nhutanh@123!:', isMatch); // -> Password123: true
         });
 
         // Test a failing password

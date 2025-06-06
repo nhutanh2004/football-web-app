@@ -130,7 +130,7 @@ const UserManagerPage = () => {
             const isProtectedAdmin = user.role === "admin"; // Người dùng với role "admin" được bảo vệ
             const isCurrentUserAdmin = currentUserRole === "admin"; // Chỉ admin thật mới chỉnh sửa
 
-            // Vô hiệu hóa chỉnh sửa nếu không phải admin thật hoặc đang chỉnh sửa admin khác
+            // Vô hiệu hóa chỉnh sửa nếu không phải admin hoặc đang chỉnh sửa admin khác
             const isDisabled = !isCurrentUserAdmin || (isProtectedAdmin && currentUserRole !== "admin");
 
             return (

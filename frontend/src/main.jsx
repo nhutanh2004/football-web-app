@@ -17,6 +17,7 @@ import AdminPlayersPage from './pages/AdminPlayersPage';
 import AdminTeamsPage from './pages/AdminTeamsPage'; 
 import AdminMatchesPage from './pages/AdminMatchesPage';
 import ProtectedRoute from './components/ProtectedRoute';
+import UserProfilePage from './pages/UserProfilePage';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -89,6 +90,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           />
           {/* Public Routes */}
           <Route path="register" element={<RegisterPage />} />
+          <Route path="profile" element={<UserProfilePage />} />
           <Route path="login" element={<LoginPage />} />
         </Route>
       </Routes>

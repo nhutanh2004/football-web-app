@@ -1,4 +1,5 @@
 const jwt = require('jsonwebtoken');
+const User = require('../models/User'); 
 
 exports.authenticate = async (req, res, next) => {
     const token = req.header('Authorization')?.replace('Bearer ', '');
@@ -8,10 +9,27 @@ exports.authenticate = async (req, res, next) => {
 
     try {
         const decoded = jwt.verify(token, process.env.JWT_SECRET || 'defaultsecret');
-        req.user = decoded; // Attach user info to the request
+
+        // Truy vấn user mới nhất từ DB bằng id trong token
+        const user = await User.findById(decoded.id);
+
+        if (!user) {
+            return res.status(401).json({ message: 'User not found' });
+        }
+
+        // Gán user thực tế vào req.user để các middleware và controller dùng
+        req.user = {
+            id: user._id.toString(),
+            username: user.username,
+            email: user.email,
+            isAdmin: user.isAdmin,
+            role: user.role,
+            // thêm các trường khác nếu cần
+        };
+
         next();
     } catch (err) {
-        res.status(401).json({ message: 'Invalid token' });
+        return res.status(401).json({ message: 'Invalid token' });
     }
 };
 
@@ -21,20 +39,18 @@ exports.authorizeAdmin = (req, res, next) => {
     }
     next();
 };
-exports.authorizeCustom = ({ allowAdmins = [], denyAdmins = [] } = {}) => {
+exports.authorizeCustom = ({ allowAdmins = [] } = {}) => {
     return (req, res, next) => {
         const user = req.user;
-
+        const targetId = req.params.id;
         if (!user) {
             return res.status(401).json({ message: 'Unauthorized' });
         }
 
-        // Nếu là admin bị cấm quyền này
-        if (user.isAdmin && denyAdmins.includes(user.role)) {
+        if (user.isAdmin && !allowAdmins.includes(user.role)) {
             return res.status(403).json({ message: 'Action not allowed for your admin level' });
         }
 
-        // Nếu là admin hợp lệ (theo allow list)
         if (user.isAdmin && allowAdmins.includes(user.role)) {
             return next();
         }

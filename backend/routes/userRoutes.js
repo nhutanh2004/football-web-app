@@ -17,7 +17,7 @@ router.post('/', createUser);
 router.get('/', authenticate, authorizeAdmin, getAllUsers);
 
 // Protected route: Get a specific user (admin or the user themselves)
-router.get('/:id', authenticate, getUserById);
+router.get('/:id', authenticate, authorizeCustom, getUserById);
 
 // Chỉ admin có role là "admin" mới được xóa
 router.delete('/:id', authenticate, authorizeCustom({ allowAdmins: ['admin'] }), deleteUser);
@@ -29,7 +29,6 @@ router.put('/:id', authenticate, async (req, res, next) => {
     if (user.id === id) return next();
 
     if (user.id !== id) {
-        // Chặn co-admin không cho sửa user khác
         if (user.isAdmin && user.role !== 'admin') {
             return res.status(403).json({ message: 'Your admin level cannot edit other users' });
         }
