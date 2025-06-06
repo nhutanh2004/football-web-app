@@ -37,7 +37,7 @@ const AdminMatchesPage = () => {
   const handleAddMatch = () => {
     const token = localStorage.getItem('token'); // Get the token from local storage
     if (!token) {
-      alert('You must be logged in to edit a team!');
+      alert('Bạn phải đăng nhập để chỉnh sửa!');
       return;
     }
     if (newMatch.team1 === newMatch.team2 && newMatch.team1 !== '') {
@@ -71,11 +71,11 @@ const AdminMatchesPage = () => {
   const handleEditMatch = () => {
     const token = localStorage.getItem('token'); // Get the token from local storage
     if (!token) {
-      alert('You must be logged in to edit a team!');
+      alert('Bạn phải đăng nhập để chỉnh sửa');
       return;
     }
     if (editingMatch.team1 === editingMatch.team2 && editingMatch.team1 !== '') {
-      alert('Team 1 and Team 2 must be different!');
+      alert('Team 1 và Team 2 phải khác nhau!');
       return;
     }
 
@@ -123,11 +123,11 @@ const AdminMatchesPage = () => {
 
   return (
     <div className="admin-matches-page">
-      <h1>Manage Matches</h1>
+      <h1>Thông tin trận đấu</h1>
 
       {/* Add Match Section */}
       <section>
-        <h2>Add Match</h2>
+        <h2>Thêm trận đấu</h2>
         <input
           type="date"
           value={newMatch.date}
@@ -137,7 +137,7 @@ const AdminMatchesPage = () => {
           value={newMatch.team1}
           onChange={(e) => setNewMatch({ ...newMatch, team1: e.target.value })}
         >
-          <option value="">Select Team 1</option>
+          <option value="">Chọn đội 1</option>
           {teams.map((team) => (
             <option key={team._id} value={team.name}>
               {team.name}
@@ -148,7 +148,7 @@ const AdminMatchesPage = () => {
           value={newMatch.team2}
           onChange={(e) => setNewMatch({ ...newMatch, team2: e.target.value })}
         >
-          <option value="">Select Team 2</option>
+          <option value="">Chọn đội 2</option>
           {teams
             .filter((team) => team.name !== newMatch.team1) // Exclude team1 from the options
             .map((team) => (
@@ -179,7 +179,7 @@ const AdminMatchesPage = () => {
         </select>
 
         {/* Team 1 Scorers */}
-        <h3>Team 1 Scorers</h3>
+        <h3>Người ghi bàn của đội 1</h3>
           <select
             value="" // Đặt giá trị mặc định
             onChange={(e) => addScorer('team1_scorer', {
@@ -188,7 +188,7 @@ const AdminMatchesPage = () => {
               ownGoal: false,
             })}
           >
-            <option value="">Select Scorer</option>
+            <option value="">Chọn người ghi bàn</option>
             {players.map((player) => (
               <option key={player._id} value={player._id}>
                 {player.name}
@@ -230,7 +230,7 @@ const AdminMatchesPage = () => {
             })}
           </ul>
         {/* Team 2 Scorers */}
-        <h3>Team 2 Scorers</h3>
+        <h3>Người ghi bàn của đội 2</h3>
           <select
             value="" // Đặt giá trị mặc định
             onChange={(e) => addScorer('team2_scorer', {
@@ -239,7 +239,7 @@ const AdminMatchesPage = () => {
               ownGoal: false,
             })}
           >
-            <option value="">Select Scorer</option>
+            <option value="">Chọn người ghi bàn</option>
             {players.map((player) => (
               <option key={player._id} value={player._id}>
                 {player.name}
@@ -283,7 +283,7 @@ const AdminMatchesPage = () => {
       </section>
       {editingMatch && (
   <section>
-    <h2>Edit Match</h2>
+    <h2>Chỉnh sửa trận đấu</h2>
     <input
       type="date"
       value={editingMatch.date}
@@ -293,7 +293,7 @@ const AdminMatchesPage = () => {
       value={editingMatch.team1}
       onChange={(e) => setEditingMatch({ ...editingMatch, team1: e.target.value })}
     >
-      <option value="">Select Team 1</option>
+      <option value="">Chọn đội 1</option>
       {teams.map((team) => (
         <option key={team._id} value={team.name}>
           {team.name}
@@ -304,7 +304,7 @@ const AdminMatchesPage = () => {
       value={editingMatch.team2}
       onChange={(e) => setEditingMatch({ ...editingMatch, team2: e.target.value })}
     >
-      <option value="">Select Team 2</option>
+      <option value="">Chọn đội 2</option>
       {teams
         .filter((team) => team.name !== editingMatch.team1)
         .map((team) => (
@@ -335,7 +335,7 @@ const AdminMatchesPage = () => {
     </select>
     
     {/* Editing Scorers for Team 1 */}
-    <h3>Team 1 Scorers</h3>
+    <h3>Người ghi bàn đội 1</h3>
      {/* Add New Scorer */}
         <select
           value=""
@@ -345,7 +345,7 @@ const AdminMatchesPage = () => {
             setEditingMatch({ ...editingMatch, team1_scorer: updatedScorers });
           }}
         >
-          <option value="">Select Scorer</option>
+          <option value="">Chọn người ghi bàn</option>
           {players.map((player) => (
             <option key={player._id} value={player._id}>
               {player.name}
@@ -399,7 +399,7 @@ const AdminMatchesPage = () => {
       })}
     </ul>
     {/* Editing Scorers for Team 2 */}
-    <h3>Team 2 Scorers</h3>
+    <h3>Người ghi bàn đội 2</h3>
     {/* Add New Scorer */}
     <select
       value=""
@@ -414,7 +414,7 @@ const AdminMatchesPage = () => {
         setEditingMatch({ ...editingMatch, team2_scorer: updatedScorers });
       }}
     >
-      <option value="">Select Scorer</option>
+      <option value="">Chọn người ghi bàn</option>
       {players.map((player) => (
         <option key={player._id} value={player._id}>
           {player.name}

@@ -17,7 +17,7 @@ const PlayersPage = () => {
   };
   return (
     <div className="players-page">
-      <h1>Players</h1>
+      <h1>Cầu thủ</h1>
       <div className="players-grid">
         {players.map(player => (
           <div key={player._id} className="player-card">
@@ -27,7 +27,7 @@ const PlayersPage = () => {
               alt={player.name} onError={handleImageError}/>
 
               <p>{player.position}</p>
-              <Link to={`/players/${player._id}`}>View Profile</Link>
+              <Link to={`/players/${player._id}`}>Xem thông tin</Link>
             </div>
           </div>
         ))}

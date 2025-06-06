@@ -23,6 +23,8 @@ const LoginPage = () => {
       const response = await axios.post('http://localhost:5000/api/auth/login', formData);
       localStorage.setItem('token', response.data.token); // Save the token
       localStorage.setItem('isAdmin', response.data.isAdmin.toString()); // Save isAdmin as a string
+      localStorage.setItem('userId', response.data.userId);
+      localStorage.setItem('role', response.data.role || 'user'); // Save user role
       navigate('/'); // Redirect to the homepage
     } catch (err) {
       setError(err.response?.data?.message || 'Error logging in.');

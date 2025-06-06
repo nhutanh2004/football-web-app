@@ -14,7 +14,7 @@ const TeamsPage = () => {
 
   return (
     <div className="teams-page">
-      <h1>Teams</h1>
+      <h1>Các đội bóng</h1>
       <div className="teams-grid">
         {teams.map(team => (
           <div key={team._id} className="team-card">

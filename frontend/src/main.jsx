@@ -11,11 +11,12 @@ import TeamPage from './pages/TeamPage';
 import MatchPage from './pages/MatchPage';
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
+import CommentPage from './pages/CommentPage';
 import UserManagerPage from "./pages/UserManagerPage";
 import AdminPlayersPage from './pages/AdminPlayersPage';
-import AdminTeamsPage from './pages/AdminTeamsPage'; // Import AdminTeamsPage
-import AdminMatchesPage from './pages/AdminMatchesPage'; // Import AdminMatchesPage
-import ProtectedRoute from './components/ProtectedRoute'; // Import ProtectedRoute
+import AdminTeamsPage from './pages/AdminTeamsPage'; 
+import AdminMatchesPage from './pages/AdminMatchesPage';
+import ProtectedRoute from './components/ProtectedRoute';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -27,6 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="teams" element={<TeamsPage />} />
           <Route path="players" element={<PlayersPage />} />
           <Route path="matches" element={<MatchesPage />} />
+          <Route path="comments" element={<CommentPage />} />
           {/* Protected Routes */}
           <Route
             path="players/:id"

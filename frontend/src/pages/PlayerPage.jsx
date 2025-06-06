@@ -18,10 +18,10 @@ const PlayerPage = () => {
     <div>
       <h1>{player.name}</h1>
       <img src={player.avatarUrl} alt={player.name} />
-      <p><strong>Birthday:</strong> {player.birthday}</p>
-      <p><strong>Position:</strong> {player.position}</p>
-      <p><strong>Nationality:</strong> {player.country}</p>
-      <p><strong>Team: </strong> 
+      <p><strong>Năm sinh:</strong> {player.birthday}</p>
+      <p><strong>Vị trí:</strong> {player.position}</p>
+      <p><strong>Quốc tịch:</strong> {player.country}</p>
+      <p><strong>Đội hiện tại: </strong> 
         <Link to={`/teams/${player.team?._id}`}>
            {player.team?.name}
         </Link>

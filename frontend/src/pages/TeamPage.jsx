@@ -38,12 +38,12 @@ const TeamPage = () => {
         <img src={team.logo_low} alt={team.name} />{team.name}
       </h1>
       <div className='team-info'>
-        <p><strong>Country:</strong> {team.country}</p>
-        <p><strong>Founded:</strong> {team.founded}</p>
-        <p><strong>Stadium:</strong> {team.stadium}</p>
-        <p><strong>Coach:</strong> {team.coach}</p>
+        <p><strong>Quốc gia:</strong> {team.country}</p>
+        <p><strong>Ngày thành lập:</strong> {team.founded}</p>
+        <p><strong>Sân nhà:</strong> {team.stadium}</p>
+        <p><strong>Huấn luận viên:</strong> {team.coach}</p>
       </div>
-      <h2>Players</h2>
+      <h2>Cầu thủ</h2>
       <div className="players-grid">
         {players.map(player => (
           <div key={player._id} className="player-card">
@@ -61,7 +61,7 @@ const TeamPage = () => {
         ))}
       </div>
 
-      <h3>Matches</h3>
+      <h3>Trận Đấu</h3>
       <ul>  
         {matches.map(match => (
           <li key={match._id}>

@@ -67,10 +67,10 @@ exports.getUserById = async (req, res) => {
 exports.updateUser = async (req, res) => {
     try {
         const { id } = req.params;
-        const { username, email, password, isAdmin } = req.body;
+        const { username, email, password, isAdmin , role} = req.body;
 
         // Allow updates if the user is an admin or the user themselves
-        if (req.user.id !== id && !req.user.isAdmin) {
+        if (req.user.id !== id && !req.user.role === 'admin') {
             return res.status(403).json({ message: 'Access denied' });
         }
 
@@ -87,8 +87,12 @@ exports.updateUser = async (req, res) => {
         }
 
         // Only admins can update `isAdmin`
-        if (isAdmin !== undefined && req.user.isAdmin) {
+        if (isAdmin !== undefined && req.user.role === 'admin') {
             user.isAdmin = isAdmin;
+        }
+        // Only admins can update `role`
+        if (role && req.user.role === 'admin') {
+            user.role = role;
         }
 
         const updatedUser = await user.save();

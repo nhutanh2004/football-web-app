@@ -21,3 +21,25 @@ exports.authorizeAdmin = (req, res, next) => {
     }
     next();
 };
+exports.authorizeCustom = ({ allowAdmins = [], denyAdmins = [] } = {}) => {
+    return (req, res, next) => {
+        const user = req.user;
+
+        if (!user) {
+            return res.status(401).json({ message: 'Unauthorized' });
+        }
+
+        // Nếu là admin bị cấm quyền này
+        if (user.isAdmin && denyAdmins.includes(user.role)) {
+            return res.status(403).json({ message: 'Action not allowed for your admin level' });
+        }
+
+        // Nếu là admin hợp lệ (theo allow list)
+        if (user.isAdmin && allowAdmins.includes(user.role)) {
+            return next();
+        }
+
+        // Nếu không phải admin thì từ chối
+        return res.status(403).json({ message: 'Only admins can perform this action' });
+    };
+};

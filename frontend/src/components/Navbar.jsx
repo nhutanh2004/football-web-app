@@ -16,18 +16,19 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <Link to="/" className="navbar-link">Home</Link>
-        <Link to="/teams" className="navbar-link">Teams</Link>
-        <Link to="/players" className="navbar-link">Players</Link>
-        <Link to="/matches" className="navbar-link">Matches</Link>
+        <Link to="/" className="navbar-link">Trang chủ</Link>
+        <Link to="/teams" className="navbar-link">Đội</Link>
+        <Link to="/players" className="navbar-link">Cầu thủ</Link>
+        <Link to="/matches" className="navbar-link">Trận đấu</Link>
+        <Link to="/comments" className="navbar-link">Bình luận</Link>
         {isAdmin && (
           <div className="admin-dropdown">
-            <div className="navbar-link">Admin</div>
+            <div className="navbar-link">Quản lý</div>
             <div className="admin-dropdown-content">
-              <Link to="/admin/teams" className="navbar-link">Manage Teams</Link>
-              <Link to="/admin/players" className="navbar-link">Manage Players</Link>
-              <Link to="/admin/matches" className="navbar-link">Manage Matches</Link>
-              <Link to="/admin/users" className="navbar-link">Manage Users</Link>
+              <Link to="/admin/teams" className="navbar-link">Thông tin đội</Link>
+              <Link to="/admin/players" className="navbar-link">Thông tin cầu thủ</Link>
+              <Link to="/admin/matches" className="navbar-link">Thông tin trận đấu</Link>
+              <Link to="/admin/users" className="navbar-link">Thông tin người dùng</Link>
             </div>
           </div>
         )}

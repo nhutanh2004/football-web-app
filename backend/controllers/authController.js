@@ -19,13 +19,12 @@ exports.login = async (req, res) => {
 
             // Generate a JWT token
             const token = jwt.sign(
-                { id: user._id, isAdmin: user.isAdmin }, // Include isAdmin in the token payload
+                { id: user._id, isAdmin:user.isAdmin, role: user.role || 'user' },
                 process.env.JWT_SECRET || 'defaultsecret',
                 { expiresIn: '1h' }
             );
-
-            // Include isAdmin in the response
-            res.json({ token, isAdmin: user.isAdmin });
+            //res.json({token});
+            res.json({ token, isAdmin: user.isAdmin, userId: user._id, role: user.role || 'user' });
         });
     } catch (err) {
         res.status(500).json({ message: 'Error logging in', error: err.message });

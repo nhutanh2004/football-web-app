@@ -20,8 +20,8 @@ const HomePage = () => {
           className="homepage-logo"
         />
         <div>
-          <h1 className="homepage-title">Welcome to Premier League</h1>
-          <p className="homepage-description">Get the latest information about Premier League matches and standings </p>
+          <h1 className="homepage-title">Premier League </h1>
+          <p className="homepage-description">Nơi đây sẽ cung cấp thông tin về trận đấu mới nhất </p>
         </div>
       </div>
     </div>

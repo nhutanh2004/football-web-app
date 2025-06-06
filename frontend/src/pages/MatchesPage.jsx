@@ -14,7 +14,7 @@ const MatchesPage = () => {
 
   return (
     <div className="matches-page">
-      <h1>Matches</h1>
+      <h1>Các trận đấu</h1>
       <div className="matches-grid">
         {matches.map(match => (
           <div key={match._id} className="match-card">
@@ -31,8 +31,8 @@ const MatchesPage = () => {
                 </Link>
               </h2>
               <Link to={`/matches/${match._id}`}>
-                <p><strong>Date:</strong> {new Date(match.date).toLocaleString()}</p>
-                <p><strong>Score:</strong> {match.score}</p>
+                <p><strong>Ngày:</strong> {new Date(match.date).toLocaleString()}</p>
+                <p><strong>Tỉ số:</strong> {match.score}</p>
               </Link>
             </div>
           </div>

@@ -6,7 +6,7 @@ const {
     updateUser,
     deleteUser,
 } = require('../controllers/userController');
-const { authenticate, authorizeAdmin } = require('../middleware/authMiddleware');
+const { authenticate, authorizeAdmin,authorizeCustom } = require('../middleware/authMiddleware');
 
 const router = express.Router();
 
@@ -19,10 +19,24 @@ router.get('/', authenticate, authorizeAdmin, getAllUsers);
 // Protected route: Get a specific user (admin or the user themselves)
 router.get('/:id', authenticate, getUserById);
 
-// Protected route: Update a user (admin or the user themselves)
-router.put('/:id', authenticate, updateUser);
+// Chỉ admin có role là "admin" mới được xóa
+router.delete('/:id', authenticate, authorizeCustom({ allowAdmins: ['admin'] }), deleteUser);
 
-// Admin-only route: Delete a user
-router.delete('/:id', authenticate, authorizeAdmin, deleteUser);
+// Chỉ "admin" mới được sửa thông tin người dùng khác
+router.put('/:id', authenticate, async (req, res, next) => {
+    const user = req.user;
+    const { id } = req.params;
+    if (user.id === id) return next();
+
+    if (user.id !== id) {
+        // Chặn co-admin không cho sửa user khác
+        if (user.isAdmin && user.role !== 'admin') {
+            return res.status(403).json({ message: 'Your admin level cannot edit other users' });
+        }
+    }
+
+    next(); // OK
+}, updateUser);
+
 
 module.exports = router;
